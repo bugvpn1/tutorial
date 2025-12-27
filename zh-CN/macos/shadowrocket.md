@@ -67,6 +67,7 @@
 #### 6. 登录成功后，搜索 `Shadowrocket`。
 - 请认准开发商为 **Shadow Launch Technology Limited**。
 - 点击下载图标（如果是付费账号，显示为云下载图标是正常的，无需再次付费）。
+
 ![搜索应用](-09.png)
 ![确认下载](-10.png)
 

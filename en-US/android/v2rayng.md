@@ -63,8 +63,10 @@ We provide a high-speed, free download channel. The file is hosted on cloud stor
 ![import_sub](v2rayng-07.png)
 #### 2. It is recommended to manually update once to get the latest node list.
 - Click the **three-dot menu** `⋮` icon in the top right corner.
+
 ![Menu Icon](v2rayng-08.png)
 - Select **"Update subscription"**.
+
 ![Update Subscription](v2rayng-09.png)
 
 
@@ -78,6 +80,7 @@ We provide a high-speed, free download channel. The file is hosted on cloud stor
 
 > ✅ **Connection Success Indicators**:
 > * The bottom bar shows "Connected".
+
 ![Connected](v2rayng-11.png)
 > * A `VPN` or key icon appears in the status bar at the top of your phone.
 > * You can access Google/YouTube via your browser.

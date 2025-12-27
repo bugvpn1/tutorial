@@ -67,6 +67,7 @@
 #### 6. After logging in, search for `Shadowrocket`.
 - Please ensure the developer is **Shadow Launch Technology Limited**.
 - Click the download icon (if using a paid shared account, seeing a cloud icon is normal; you do not need to pay again).
+
 ![Search App](-09.png)
 ![Confirm Download](-10.png)
 

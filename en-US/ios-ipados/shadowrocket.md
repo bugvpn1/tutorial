@@ -72,12 +72,14 @@
 
 #### 6. **‼️ Critical Step**: If a security prompt appears during login, you must select **"Other Options"** -> **"Don't Upgrade"**.
 - (Note: Selecting the wrong option may enable Two-Factor Authentication, preventing future logins)*
+
 ![Other Options](-08.png)
 ![Don't Upgrade](-09.png)
 
 #### 7. After logging in successfully, search for `Shadowrocket`.
 - Please ensure the developer is **Shadow Launch Technology Limited**.
 - Tap the download icon (if using a paid shared account, seeing a cloud icon is normal; you do not need to pay again).
+
 ![Search App](-10.jpg)
 ![Confirm Download](-11.png)
 
