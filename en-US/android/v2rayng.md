@@ -1,313 +1,127 @@
-# 🚀 v2rayNG - Complete Android Proxy Solution
+# 📱 v2rayNG - Recommended Android Client
 
-> ⚡ **The Most Popular Android Proxy Client** | Open source, powerful, and supports all major protocols
+> ⚡ **The Most Popular Android Proxy Client** | Open-source, powerful, and fully supports Xray/VLESS Reality protocols.
 
-[v2rayNG](https://github.com/2dust/v2rayNG) is the most widely used proxy client for Android, developed by the same team behind v2rayN for Windows. It offers comprehensive protocol support and user-friendly interface, making it the go-to choice for Android users.
+**v2rayNG** is the most widely used proxy client for Android, developed by the same team behind v2rayN for Windows. It features comprehensive functionality and a user-friendly interface, making it our top recommendation for Android users.
 
-## 📊 Protocol Support Matrix
+### 📋 System Requirements
 
-| Protocol | Support Status | Performance | Security | Recommendation |
-|----------|----------------|-------------|----------|----------------|
-| 🚀 **VMess** | ✅ Native | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| 🔐 **VLESS** | ✅ Native | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| 🔒 **Shadowsocks** | ✅ Native | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| 🧦 **SOCKS** | ✅ Native | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
-| 🛡️ **Trojan** | ✅ Native | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| 🔗 **WireGuard** | ✅ Native | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-
-## 🔧 System Requirements
-
-### 📱 Android Compatibility
-
-| Requirement | Minimum | Recommended | Notes |
-|-------------|---------|-------------|-------|
-| **Android Version** | 5.0 (API 21) | 10.0+ | Latest features require newer Android |
-| **RAM** | 2GB | 4GB+ | Smooth operation |
-| **Storage** | 50MB | 200MB+ | Including cache and logs |
-| **CPU** | ARMv7 | ARM64 | Better performance on 64-bit |
-| **Network** | 3G/WiFi | 4G/5G/WiFi | Stable connection recommended |
-
-## 📥 Official Downloads
-
-> 💡 **Download Tips**: Always download from official sources to ensure security and authenticity
-
-### 🌟 Primary Download Sources
-
-| Download Source | Type | Speed | Reliability | Recommendation |
-|----------------|------|-------|-------------|----------------|
-| [🚀 Mirror 1](https://git.886.be/https://github.com/2dust/v2rayNG/releases/download/1.9.33/v2rayNG_1.9.33_universal.apk) | Accelerated | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| [⚡ Mirror 2](https://gh.xxooo.cf/https://github.com/2dust/v2rayNG/releases/download/1.9.33/v2rayNG_1.9.33_universal.apk) | Accelerated | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| [📦 Official GitHub](https://github.com/2dust/v2rayNG/releases/download/1.9.33/v2rayNG_1.9.33_universal.apk) | Official | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| [🔗 Official Site](https://dl.v2rayng.org/releases/latest/v2rayNG_1.8.12.apk) | Official | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-
-### 📋 Version Information
-
-- **Latest Version**: v1.9.33
-- **File Size**: ~35MB
-- **Architecture**: Universal (ARM + ARM64 + x86)
-- **Minimum Android**: 5.0 (API 21)
-- **Target Android**: 14 (API 34)
-
-## 🛠️ Installation Guide
-
-### 📱 Installation Methods
-
-#### 🏪 Google Play Store (If Available)
-1. Search for "v2rayNG" in Google Play Store
-2. Tap "Install" and wait for automatic download
-3. App will be installed automatically
-4. **Advantage**: Automatic updates, verified by Google
-
-#### 📦 APK Installation (Recommended)
-1. **Download APK**: Use one of the links above
-2. **Enable Unknown Sources**:
-   - Go to Settings → Security → Unknown Sources
-   - Enable "Install from Unknown Sources"
-3. **Install APK**: Tap the downloaded APK file
-4. **Grant Permissions**: Allow installation when prompted
-
-> ⚠️ **Security Note**: Only download APK files from official sources listed above
-
-### 🔐 First Launch Setup
-
-After installation, open v2rayNG to access the main interface:
-
-![Main Interface](v2rayng-01.jpg)
-
-> **Interface Overview**: The main screen shows your configuration list and connection status
-
-## 🚀 Complete Usage Guide
-
-### 📥 Method 1: Import Subscription
-
-#### Step 1: Copy Subscription Link
-
-![Copy Subscription](v2rayng-02.png)
-
-> **Get Subscription**: Copy the subscription URL from your service provider
-
-#### Step 2: Import Subscription
-
-![Import Menu](v2rayng-03.jpg)
-
-> **Access Import**: Tap the "+" button in the top-right corner
-
-![Select Import Type](v2rayng-04.jpg)
-
-> **Choose Method**: Select "Import subscription from clipboard" for automatic import
-
-### ⚙️ Method 2: Manual Server Configuration
-
-#### Step 1: Add Server Manually
-
-Tap "+" → "Manually input VMess/VLESS/etc." to add individual servers
-
-#### Step 2: Configure Server Details
-
-Fill in the following information:
-- **Address**: Server IP or domain
-- **Port**: Server port number
-- **User ID**: Your unique identifier
-- **Security**: Encryption method
-- **Network**: Transport protocol
-
-### 📱 Method 3: QR Code Scanning
-
-#### Step 1: Access QR Scanner
-
-Tap "+" → "Scan QR code"
-
-#### Step 2: Scan Configuration
-
-Point camera at QR code containing server configuration
-
-## ⚙️ Advanced Configuration
-
-### 🎯 Routing Rules
-
-v2rayNG supports sophisticated routing rules:
-
-#### 🌐 Domain-based Routing
-- **Direct**: Bypass proxy for domestic sites
-- **Proxy**: Route through proxy for blocked sites
-- **Block**: Block ads and malicious domains
-
-#### 🗺️ Geographic Routing
-- **GeoIP CN**: Chinese IP addresses → Direct
-- **GeoIP Others**: Foreign IP addresses → Proxy
-- **Custom Rules**: User-defined routing logic
-
-### 📊 Performance Optimization
-
-#### 🚀 Speed Enhancement
-- **Connection Pool**: Reduce connection overhead
-- **Multiplexing**: Multiple streams over single connection
-- **Congestion Control**: Optimize for mobile networks
-
-#### 🔋 Battery Optimization
-- **Background Limits**: Minimize background activity
-- **Sleep Mode**: Pause unnecessary operations
-- **Efficient Protocols**: Use battery-friendly protocols
-
-## 🛡️ Security Features
-
-### 🔐 Encryption Standards
-- **AES-256-GCM**: Military-grade encryption
-- **ChaCha20-Poly1305**: Modern, efficient encryption
-- **TLS 1.3**: Latest transport security
-
-### 🛡️ Privacy Protection
-- **DNS Security**: Encrypted DNS queries
-- **Traffic Obfuscation**: Hide proxy traffic patterns
-- **No Logging**: No connection logs stored locally
-
-### 🔒 Certificate Validation
-- **Certificate Pinning**: Prevent man-in-the-middle attacks
-- **Domain Verification**: Ensure connection authenticity
-- **SNI Masking**: Hide destination information
-
-## ❓ Troubleshooting Guide
-
-### 🔧 Connection Issues
-
-**Q: Cannot connect to server?**
-
-A: Check the following:
-
-1. **Network Connection**: Ensure device has internet access
-2. **Server Status**: Verify server is online and accessible
-3. **Configuration**: Double-check all server parameters
-4. **Firewall**: Ensure app isn't blocked by firewall
-
-**Q: Slow connection speed?**
-
-A: Optimization steps:
-
-1. **Server Selection**: Choose server closer to your location
-2. **Protocol Change**: Try different protocols (VMess → VLESS)
-3. **MTU Settings**: Adjust MTU size for your network
-4. **Background Apps**: Close unnecessary apps
-
-### 📱 App-Specific Issues
-
-**Q: App crashes on startup?**
-
-A: Troubleshooting steps:
-
-1. **Clear Cache**: Settings → Apps → v2rayNG → Clear Cache
-2. **Reinstall**: Uninstall and reinstall the app
-3. **Android Version**: Check compatibility with your Android version
-4. **Free Space**: Ensure sufficient storage space
-
-**Q: Battery drain issues?**
-
-A: Power optimization:
-
-1. **Battery Optimization**: Disable battery optimization for v2rayNG
-2. **Background Limits**: Adjust background app refresh settings
-3. **Protocol Choice**: Use more efficient protocols
-4. **Update App**: Keep app updated for efficiency improvements
-
-## 🎨 User Interface Guide
-
-### 🏠 Main Interface Elements
-
-#### 📊 Status Bar
-- **Connection Status**: Shows current connection state
-- **Speed Indicator**: Real-time upload/download speeds
-- **Server Info**: Currently selected server details
-
-#### 📋 Server List
-- **Server Cards**: Visual representation of each server
-- **Latency Display**: Ping time to each server
-- **Selection**: Tap to select active server
-
-#### ⚙️ Settings Access
-- **Three-dot Menu**: Access to advanced settings
-- **Quick Actions**: Common operations like test speed
-- **Profile Management**: Import/export configurations
-
-### 🎛️ Settings Overview
-
-#### 🌐 Network Settings
-- **Routing Mode**: Global proxy, PAC mode, or direct
-- **DNS Settings**: Custom DNS servers and DoH
-- **IPv6 Support**: Enable/disable IPv6 routing
-
-#### 📱 App Settings
-- **Start on Boot**: Auto-start with device
-- **Background Mode**: Keep alive in background
-- **Theme Options**: Light/dark theme selection
-
-## 🔄 Maintenance & Updates
-
-### 📅 Regular Maintenance
-
-#### 🔄 Subscription Updates
-- **Auto-Update**: Enable automatic subscription refresh
-- **Manual Update**: Refresh when servers change
-- **Update Frequency**: Recommended daily or weekly
-
-#### 🧹 Cache Management
-- **Clear Logs**: Regular log cleanup for privacy
-- **Cache Cleanup**: Remove temporary files
-- **Database Optimization**: Maintain app performance
-
-### 🆙 App Updates
-
-#### 🔔 Update Notifications
-- **GitHub Releases**: Follow repository for updates
-- **In-app Notifications**: Enable update alerts
-- **Changelog Review**: Read changes before updating
-
-#### 📦 Update Methods
-- **APK Update**: Download and install new APK
-- **Play Store**: Automatic updates if available
-- **Backup First**: Export configurations before updating
-
-## 📊 Performance Comparison
-
-| Feature | v2rayNG | Other Clients | Advantage |
-|---------|---------|---------------|-----------|
-| **Protocol Support** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | Most comprehensive |
-| **User Interface** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | Clean and intuitive |
-| **Performance** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | Optimized core |
-| **Stability** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | Battle-tested |
-| **Open Source** | ✅ | ❌ | Transparent & secure |
-| **Community** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | Active development |
-
-## 📞 Support & Resources
-
-### 🌍 Official Resources
-- 🏠 **GitHub Repository**: [v2rayNG Project](https://github.com/2dust/v2rayNG)
-- 📋 **Issue Tracker**: [Report Bugs](https://github.com/2dust/v2rayNG/issues)
-- 📚 **Documentation**: [Wiki Pages](https://github.com/2dust/v2rayNG/wiki)
-
-### 💬 Community Support
-- 📱 **Telegram**: Active user groups and channels
-- 💭 **Reddit**: r/v2ray community discussions
-- 🔗 **Forums**: Technical discussions and help
-
-### 🎓 Learning Resources
-- 📺 **Video Tutorials**: Step-by-step setup guides
-- 📝 **Blog Posts**: Configuration examples and tips
-- 📖 **Official Docs**: Comprehensive technical documentation
+- **OS**: Android 5.0 or higher
+- **Devices**: Android Phones / Tablets / E-ink Devices
+- **Permissions**: Network access, VPN configuration permission
 
 ---
 
-> 📅 Last Updated: July 10, 2025 | 🚀 Compatible Version: v2rayNG 1.9.33+
+## 📥 Official Safe Free Download
 
-![Image 5](v2rayng-05.jpg)
+We provide a high-speed, free download channel. The file is hosted on cloud storage and is safe and virus-free.
 
-### 2. Update Subscription Nodes
+| Version | Filename | Download Link |
+| :--- | :--- | :--- |
+| **Latest** | `v2rayNG.apk` | [**⬇️ Click to Download**](https://download.onsucloud.com/v2rayNG.apk) |
 
-![Image 6](v2rayng-06.jpg)
+> ⚠️ **Important Note for Self-Downloading**
+> 
+> If you choose to find the installation package yourself, please ensure you use **official channels** (such as GitHub or Google Play). Do not download modified versions from unknown sources to avoid malware.
+> 
+> **Special Attention**: Please ensure you download the **latest version**! Due to our support for the new Xray/Reality protocols, **older versions of the client may not connect**.
 
-![Image 7](v2rayng-07.jpg)
+---
 
-### 3. Connect to a Node
+## 🛠️ Installation Steps
 
-![Image 8](v2rayng-08.jpg)
+1. **Download File**: Click the link above to download the `.apk` installation package.
+2. **Allow Permissions**: If the system prompts "Install unknown apps blocked," please go to `Settings` → `Security` and enable it, or click `Allow` in the pop-up window.
+3. **Complete Installation**: Click the installation package to finish installing, then open the App.
 
-![Image 9](v2rayng-09.jpg)
+![Main Interface](v2rayng-01.jpg)
 
+---
+
+## 🚀 User Tutorial
+
+### 1️⃣ Step 1: Import Subscription
+
+**Method A: Scan QR Code (Recommended)**
+1. Open v2rayNG, click the `☰` menu icon in the top left (or the `+` sign in the top right).
+   ![Import Menu](v2rayng-02.png)
+2. Select **Scan QR Code** (or QRCode).
+   ![Scan QR Code](v2rayng-03.png)
+3. Log in to your account via a browser, find your subscription information, and use your phone to **scan the QR code**.
+   ![QR Code Info](v2rayng-04.png)   
+
+**Method B: Import via Clipboard**
+1. **Copy the subscription link** from the user center.
+   ![Copy Subscription Link](v2rayng-05.png)
+2. Open v2rayNG, click the `☰` menu icon in the top left (or the `+` sign in the top right).
+   ![Import Menu](v2rayng-02.png)
+3. Select **"Import config from Clipboard"**.
+   ![Import from Clipboard](v2rayng-06.png)
+
+### 2️⃣ Step 2: Update Subscription (Important)
+1. After importing, return to the app's main page and select the **import sub** group (or the name of your subscription). You should now see all available nodes.
+   ![import_sub](v2rayng-07.png)
+2. It is recommended to manually update once to get the latest node list.
+   1. Click the **three-dot menu** `⋮` icon in the top right corner.
+   ![Menu Icon](v2rayng-08.png)
+   2. Select **"Update subscription"**.
+   ![Update Subscription](v2rayng-09.png)
+
+
+### 3️⃣ Step 3: Connect
+
+1. **Select a Node**: Click on any node in the list (a green bar will appear on the left when selected).
+2. **Start Connection**: Click the **V** logo (looks like a play button) in the bottom right corner.
+   ![Connect Button](v2rayng-10.png)
+3. **Authorize VPN**: For the first connection, a system network request will pop up. Please click **"OK"** or **"Allow"**.
+
+
+> ✅ **Connection Success Indicators**:
+> * The bottom bar shows "Connected".
+   ![Connected](v2rayng-11.png)
+> * A `VPN` or key icon appears in the status bar at the top of your phone.
+> * You can access Google/YouTube via your browser.
+
+---
+
+## ❓ FAQ
+
+### 🔧 Connection Issues
+
+**Q: Cannot connect to the server?**
+
+A: Please check:
+
+- Is your internet connection normal?
+- Is the subscription link valid?
+- Is the server node online?
+- Did you allow VPN permissions?
+
+**Q: The speed is very slow?**
+
+A: Suggestions:
+
+- Switch to a different node.
+- Check your local network quality (Wi-Fi/Data).
+- Choose a server with lower latency.
+
+### 📱 App Issues
+
+**Q: The app cannot be installed?**
+
+A: Please confirm:
+
+- Android version compatibility (5.0+).
+- Have you allowed "Install from unknown sources"?
+- Is there enough storage space?
+
+---
+## 🎫 Need More Help?
+
+If you encounter any issues during use, or if the FAQ above does not resolve your situation, please feel free to contact us:
+
+Please log in to the website backend, go to **"User & Support"** → **"Ticket Management"** to submit a ticket.
+
+> 💡 **We are here to serve you**
+> 
+> Upon receiving your ticket, our technical support team will investigate and resolve it as soon as possible. To improve efficiency, we recommend attaching **screenshots of errors** or a **detailed description** in your ticket.
