@@ -1,6 +1,6 @@
 # 🚀 Shadowrocket - Recommended MacOS Client
 
-> 🎯 **Shadowrocket** is a highly popular lightweight proxy utility on the MacOS platform (M-series chips supported). It is loved by users for its simple interface, stable performance, and affordable price.
+> 🎯 **Shadowrocket** is the most popular lightweight proxy utility on the MacOS platform. It is loved by users for its simple interface, stable performance, and affordable price.
 
 ---
 
@@ -12,7 +12,7 @@
 >
 > - **Cannot be downloaded** from the App Store in Mainland China.
 > - Requires a **Non-Mainland China Apple ID** (e.g., US, Hong Kong).
-> - **Note for Mac users**: Shadowrocket runs natively on Macs with Apple Silicon (M1/M2/M3 chips). For Intel Macs, ensure you are downloading a compatible version or verify system support.
+> - Recommended regions: US or Hong Kong.
 
 ---
 
@@ -21,7 +21,7 @@
 
 1. Visit the **[Free Shadowrocket Account Community](https://ids.ailiao.eu/)**
 2. Find a recently updated account and click **Copy Account** and **Copy Password**.
-    ![Copy Account](-01.png)
+![Copy Account](-01.png)
 
 > 💡 **Payment Note**:
 > Method 2 and Method 3 below are for users who wish to own a **private, permanent account**.
@@ -44,33 +44,33 @@
 
 > 💡 **Tip**: If you are already using a Non-Mainland China Apple ID, please ignore this step and download directly from the App Store. Only Mainland China Apple ID users need to switch accounts.
 
-1. Open **System Settings** and click on your **Apple ID / Apple Account** name at the top.
-   ![-02.png](-02.png)
+#### 1. Open System Settings and click on your **Apple Account/Apple ID**.
+![-02.png](-02.png)
 
-2. Click on **Media & Purchases**.
-   ![-03.png](-03.png)
+#### 2. Click on **Media & Purchases**.
+![-03.png](-03.png)
 
-3. Select **Sign Out** (this only signs you out of the App Store, not iCloud).
-   ![-04.png](-04.png)
+#### 3. Select **Sign Out**.
+![-04.png](-04.png)
 
-4. Open the **App Store**, click on the profile icon in the bottom-left corner, and enter the **Overseas Apple ID and Password** you just obtained to sign in.
-   ![-05.png](-05.png)
-   ![-06.png](-06.png)
+#### 4. Open the **App Store**, click the avatar in the bottom-left corner, enter the **Overseas Apple ID and Password** you just obtained, and click Sign In.
+![-05.png](-05.png)
+![-06.png](-06.png)
 
-5. **‼️ Critical Step**: If a security prompt appears during login, you must select **"Other Options"** -> **"Don't Upgrade"**.
-   ![-07.png](-07.png)
-   ![-08.png](-08.png)
-   > ⚠️ **High-Risk Warning: If you are using a shared ID (Method 1), NEVER log in via System Settings!**
-   > * **ABSOLUTELY DO NOT** log in to this shared account in your Mac's 「System Settings」 or 「iCloud」. Doing so may cause your device to be locked!
-   > * **ONLY** log in within the **App Store** or "Media & Purchases" section.
+#### 5. **‼️ Critical Step**: If a security prompt appears during login, you must select **"Other Options"** -> **"Don't Upgrade"**.
+![-07.png](-07.png)
+![-08.png](-08.png)
+> ⚠️ **High-Risk Warning: If you are using a shared ID (Method 1), NEVER log in via System Settings!**
+> * **ABSOLUTELY DO NOT** log in to this shared account in your Mac's 「System Settings」 or 「iCloud」. Doing so may cause your device to be locked!
+> * **ONLY** log in within the **App Store** app.
 
-6. After logging in successfully, search for `Shadowrocket`.
-   * Please ensure the developer is **Shadow Launch Technology Limited**.
-   * Click the download icon (if using a paid shared account, seeing a cloud icon is normal; you do not need to pay again).
-   ![Search App](-09.png)
-   ![Confirm Download](-10.png)
+#### 6. After logging in, search for `Shadowrocket`.
+* Please ensure the developer is **Shadow Launch Technology Limited**.
+* Click the download icon (if using a paid shared account, seeing a cloud icon is normal; you do not need to pay again).
+![Search App](-09.png)
+![Confirm Download](-10.png)
 
-8. **‼️ Critical Step**: After the download is complete, please **Sign Out immediately** and switch back to your own Apple ID.
+#### 7. **‼️ Critical Step**: After the download is complete, please **Sign Out immediately** and switch back to your own Apple ID.
 ---
 
 ## 🚀 Configuration Tutorial
@@ -103,17 +103,17 @@ Paste your subscription link into the **URL** field and click Done/Save:
 
 ##### Step 4: Update Subscription
 
-Right-click the subscription item (or verify auto-update) to load the nodes:
+Right-click the subscription item (or swipe) and select `Update` to load the nodes:
 
 ![Update Subscription](shadowrocket-04.png)
 
 #### 📱 Method 2: QR Code Scan
 
-1. Click the **Scan icon** in the top left corner (requires camera permission or screen scan).
-    ![-12.png](-12.png)
-2. Scan the QR code provided in your user center/subscription page.
-    ![-13.png](-13.png)
-3. The configuration will be recognized and imported automatically.
+#### 1. Click the **Scan icon** in the top left corner.
+![-12.png](-12.png)
+#### 2. Scan the QR code provided in your user center/subscription page.
+![-13.png](-13.png)
+#### 3. The configuration will be recognized and imported automatically.
 
 ---
 
@@ -123,8 +123,8 @@ Right-click the subscription item (or verify auto-update) to load the nodes:
 
 1. **Select Node**: Click on a server node in the list to select it (a dot will appear next to it).
 2. **Start Connection**: Toggle the switch at the top to enable the proxy.
-3. **Confirm Permissions**: First-time users must allow the system to add VPN configurations (password/Touch ID required).
-4. **Verify Connection**: Check for the VPN status in the menu bar.
+3. **Confirm Permissions**: First-time users must allow the system to add VPN configurations (Password/Touch ID required).
+4. **Verify Connection**: Check for the VPN icon in your menu bar.
 
 ---
 

@@ -49,7 +49,7 @@ zh-CN:
     path: zh-CN/android/README.md
     subItems:
       - title: v2rayNG
-        path: en-US/android/v2rayng.md
+        path: zh-CN/android/v2rayng.md
         icon: zh-CN/android/v2rayng.png
         updated_at: 2025-07-10
   - title: iOS / iPadOS
@@ -66,7 +66,7 @@ zh-CN:
 ## en-US
 
 * [Windows](en-US/windows/README.md)
-  * [v2rayN for Windows](zh-CN/windows/v2rayn.md)
+  * [v2rayN for Windows](en-US/windows/v2rayn.md)
 * [macOS](en-US/macos/README.md)
   * [Shadowrocket](en-US/macos/shadowrocket.md)
 * [Android](en-US/android/README.md)
@@ -81,6 +81,6 @@ zh-CN:
 * [macOS](zh-CN/macos/README.md)
   * [Shadowrocket](zh-CN/macos/shadowrocket.md)
 * [Android](zh-CN/android/README.md)
-  * [v2rayNG](en-US/android/v2rayng.md)
+  * [v2rayNG](zh-CN/android/v2rayng.md)
 * [iOS / iPadOS](zh-CN/ios-ipados/README.md)
   * [Shadowrocket](zh-CN/ios-ipados/shadowrocket.md)

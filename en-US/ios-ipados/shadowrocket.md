@@ -19,15 +19,16 @@
 >
 > - **Cannot be downloaded** from the App Store in Mainland China.
 > - Requires a **Non-Mainland China Apple ID** (e.g., US, Hong Kong).
+> - Recommended regions: US or Hong Kong.
 
 ---
 
 ### 🔑 Get an Apple ID
 #### Method 1: Get a Free Account with Shadowrocket (Recommended)
 
-1. Visit the **[Free Shadowrocket Account Community](https://ids.ailiao.eu/)**
-2. Find a recently updated account and click **Copy Account** and **Copy Password**.
-    ![Copy Account](-01.png)
+##### 1. Visit the **[Free Shadowrocket Account Community](https://ids.ailiao.eu/)**
+##### 2. Find a recently updated account and click **Copy Account** and **Copy Password**.
+![Copy Account](-01.png)
 
 > 💡 **Payment Note**:
 > Method 2 and Method 3 below are for users who wish to own a **private, permanent account**.
@@ -50,38 +51,37 @@
 
 > 💡 **Tip**: If you are already using a Non-Mainland China Apple ID, please ignore this step and download directly from the App Store. Only Mainland China Apple ID users need to switch accounts.
 
-1. Open the **App Store**.
-   ![App Store Home](-02.png)
+#### 1. Open the **App Store**.
+![App Store Home](-02.png)
 
-2. Tap the **Avatar / Profile Icon** in the top right corner.
-   ![Tap Avatar](-03.png)
+#### 2. Tap the **Avatar / Profile Icon** in the top right corner.
+![Tap Avatar](-03.png)
 
-3. **Scroll down to the very bottom** of the page.
-   ![Scroll to bottom](-04.png)
+#### 3. **Scroll down to the very bottom** of the page.
+![Scroll to bottom](-04.png)
 
-4. Tap **Sign Out**.
-   ![Sign Out](-05.png)
+#### 4. Tap **Sign Out**.
+![Sign Out](-05.png)
 
-5. After the page refreshes and returns to the top, enter the **Overseas Apple ID and Password** you just obtained, then tap Sign In.
-   ![Enter Credentials](-06.png)
-   ![AppStore Login Only](-07.jpg)
-   > ⚠️ **High-Risk Warning: If you are using a shared ID (Method 1), NEVER log in via Settings!**
-   > * **ABSOLUTELY DO NOT** log in to this shared account in your phone's system 「Settings」 or 「iCloud」. Doing so may cause your phone to be locked!
-   > * **ONLY** log in within the **App Store** app.
+#### 5. After the page refreshes and returns to the top, enter the **Overseas Apple ID and Password** you just obtained, then tap Sign In.
+![Enter Credentials](-06.png)
+![AppStore Login Only](-07.jpg)
+> ⚠️ **High-Risk Warning: If you are using a shared ID (Method 1), NEVER log in via Settings!**
+> * **ABSOLUTELY DO NOT** log in to this shared account in your phone's system 「Settings」 or 「iCloud」. Doing so may cause your phone to be locked!
+> * **ONLY** log in within the **App Store** app.
 
-6. **‼️ Critical Step**: If a security prompt appears during login, you must select **"Other Options"** -> **"Don't Upgrade"**.
-   *(Note: Selecting the wrong option may enable Two-Factor Authentication, preventing future logins)*
-   ![Other Options](-08.png)
-   ![Don't Upgrade](-09.png)
+#### 6. **‼️ Critical Step**: If a security prompt appears during login, you must select **"Other Options"** -> **"Don't Upgrade"**.
+*(Note: Selecting the wrong option may enable Two-Factor Authentication, preventing future logins)*
+![Other Options](-08.png)
+![Don't Upgrade](-09.png)
 
-7. After logging in successfully, search for `Shadowrocket`.
-   * Please ensure the developer is **Shadow Launch Technology Limited**.
-   * Tap the download icon (if using a paid shared account, seeing a cloud icon is normal; you do not need to pay again).
-   ![Search App](-10.jpg)
-   ![Confirm Download](-11.png)
+#### 7. After logging in successfully, search for `Shadowrocket`.
+* Please ensure the developer is **Shadow Launch Technology Limited**.
+* Tap the download icon (if using a paid shared account, seeing a cloud icon is normal; you do not need to pay again).
+![Search App](-10.jpg)
+![Confirm Download](-11.png)
 
-8. **‼️ Critical Step**: After the download is complete, please **Sign Out immediately** and switch back to your own Apple ID.
-
+#### 8. **‼️ Critical Step**: After the download is complete, please **Sign Out immediately** and switch back to your own Apple ID.
 ---
 
 ## 🚀 Configuration Tutorial
@@ -118,13 +118,13 @@ Swipe the subscription item or tap to enter, then find and tap `Update` (or pull
 
 ![Update Subscription](shadowrocket-04.png)
 
-#### 📱 Method 2: Scan QR Code
+#### 📱 Method 2: QR Code Scan
 
-1. Tap the **Scan icon** `[-]` in the top left corner.
-    ![-12.png](-12.png)
-2. Scan the QR code provided in your user center/subscription page.
-    ![-13.png](-13.png)
-3. The configuration will be recognized and imported automatically.
+##### 1. Tap the **Scan icon** `[-]` in the top left corner.
+![-12.png](-12.png)
+##### 2. Scan the QR code provided in your user center/subscription page.
+![-13.png](-13.png)
+##### 3. The configuration will be recognized and imported automatically.
 
 ---
 
@@ -147,8 +147,8 @@ Swipe the subscription item or tap to enter, then find and tap `Update` (or pull
 
 A: Troubleshooting steps:
 
-- Confirm your subscription is not expired.
-- Check if your internet connection (Wi-Fi/Data) is working.
+- Confirm server information is correct.
+- Check if your internet connection is working.
 - Try switching to a different node.
 - Restart the app or your device.
 
