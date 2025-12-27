@@ -12,7 +12,7 @@ en-US:
     path: en-US/macos/README.md
     subItems:
       - title: Shadowrocket
-        path: en-US/ios-ipados/shadowrocket.md
+        path: en-US/macos/shadowrocket.md
         icon: zh-CN/ios-ipados/shadowrocket.png
         updated_at: 2025-07-10
   - title: Android
@@ -42,7 +42,7 @@ zh-CN:
     path: zh-CN/macos/README.md
     subItems:
       - title: Shadowrocket
-        path: zh-CN/ios-ipados/shadowrocket.md
+        path: zh-CN/macos/shadowrocket.md
         icon: zh-CN/ios-ipados/shadowrocket.png
         updated_at: 2025-07-10
   - title: Android
@@ -68,7 +68,7 @@ zh-CN:
 * [Windows](en-US/windows/README.md)
   * [v2rayN for Windows](zh-CN/windows/v2rayn.md)
 * [macOS](en-US/macos/README.md)
-  * [Shadowrocket](en-US/ios-ipados/shadowrocket.md)
+  * [Shadowrocket](en-US/macos/shadowrocket.md)
 * [Android](en-US/android/README.md)
   * [v2rayNG](en-US/android/v2rayng.md)
 * [iOS / iPadOS](en-US/ios-ipados/README.md)
@@ -79,7 +79,7 @@ zh-CN:
 * [Windows](zh-CN/windows/README.md)
   * [v2rayN for Windows](zh-CN/windows/v2rayn.md)
 * [macOS](zh-CN/macos/README.md)
-  * [Shadowrocket](zh-CN/ios-ipados/shadowrocket.md)
+  * [Shadowrocket](zh-CN/macos/shadowrocket.md)
 * [Android](zh-CN/android/README.md)
   * [v2rayNG](en-US/android/v2rayng.md)
 * [iOS / iPadOS](zh-CN/ios-ipados/README.md)
