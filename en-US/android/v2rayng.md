@@ -43,42 +43,42 @@ We provide a high-speed, free download channel. The file is hosted on cloud stor
 ### 1️⃣ Step 1: Import Subscription
 
 **Method A: Scan QR Code (Recommended)**
-1. Open v2rayNG, click the `☰` menu icon in the top left (or the `+` sign in the top right).
-   ![Import Menu](v2rayng-02.png)
-2. Select **Scan QR Code** (or QRCode).
-   ![Scan QR Code](v2rayng-03.png)
-3. Log in to your account via a browser, find your subscription information, and use your phone to **scan the QR code**.
-   ![QR Code Info](v2rayng-04.png)   
+#### 1. Open v2rayNG, click the `☰` menu icon in the top left (or the `+` sign in the top right).
+![Import Menu](v2rayng-02.png)
+#### 2. Select **Scan QR Code** (or QRCode).
+![Scan QR Code](v2rayng-03.png)
+#### 3. Log in to your account via a browser, find your subscription information, and use your phone to **scan the QR code**.
+![QR Code Info](v2rayng-04.png)   
 
 **Method B: Import via Clipboard**
-1. **Copy the subscription link** from the user center.
-   ![Copy Subscription Link](v2rayng-05.png)
-2. Open v2rayNG, click the `☰` menu icon in the top left (or the `+` sign in the top right).
-   ![Import Menu](v2rayng-02.png)
-3. Select **"Import config from Clipboard"**.
-   ![Import from Clipboard](v2rayng-06.png)
+#### 1. **Copy the subscription link** from the user center.
+![Copy Subscription Link](v2rayng-05.png)
+#### 2. Open v2rayNG, click the `☰` menu icon in the top left (or the `+` sign in the top right).
+![Import Menu](v2rayng-02.png)
+#### 3. Select **"Import config from Clipboard"**.
+![Import from Clipboard](v2rayng-06.png)
 
 ### 2️⃣ Step 2: Update Subscription (Important)
-1. After importing, return to the app's main page and select the **import sub** group (or the name of your subscription). You should now see all available nodes.
-   ![import_sub](v2rayng-07.png)
-2. It is recommended to manually update once to get the latest node list.
-   1. Click the **three-dot menu** `⋮` icon in the top right corner.
-   ![Menu Icon](v2rayng-08.png)
-   2. Select **"Update subscription"**.
-   ![Update Subscription](v2rayng-09.png)
+#### 1. After importing, return to the app's main page and select the **import sub** group (or the name of your subscription). You should now see all available nodes.
+![import_sub](v2rayng-07.png)
+#### 2. It is recommended to manually update once to get the latest node list.
+- Click the **three-dot menu** `⋮` icon in the top right corner.
+![Menu Icon](v2rayng-08.png)
+- Select **"Update subscription"**.
+![Update Subscription](v2rayng-09.png)
 
 
 ### 3️⃣ Step 3: Connect
 
-1. **Select a Node**: Click on any node in the list (a green bar will appear on the left when selected).
-2. **Start Connection**: Click the **V** logo (looks like a play button) in the bottom right corner.
-   ![Connect Button](v2rayng-10.png)
-3. **Authorize VPN**: For the first connection, a system network request will pop up. Please click **"OK"** or **"Allow"**.
+#### 1. **Select a Node**: Click on any node in the list (a green bar will appear on the left when selected).
+#### 2. **Start Connection**: Click the **V** logo (looks like a play button) in the bottom right corner.
+![Connect Button](v2rayng-10.png)
+#### 3. **Authorize VPN**: For the first connection, a system network request will pop up. Please click **"OK"** or **"Allow"**.
 
 
 > ✅ **Connection Success Indicators**:
 > * The bottom bar shows "Connected".
-   ![Connected](v2rayng-11.png)
+![Connected](v2rayng-11.png)
 > * A `VPN` or key icon appears in the status bar at the top of your phone.
 > * You can access Google/YouTube via your browser.
 

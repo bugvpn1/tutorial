@@ -19,8 +19,8 @@
 ### 🔑 Get an Apple ID
 #### Method 1: Get a Free Account with Shadowrocket (Recommended)
 
-1. Visit the **[Free Shadowrocket Account Community](https://ids.ailiao.eu/)**
-2. Find a recently updated account and click **Copy Account** and **Copy Password**.
+##### 1. Visit the **[Free Shadowrocket Account Community](https://ids.ailiao.eu/)**
+##### 2. Find a recently updated account and click **Copy Account** and **Copy Password**.
 ![Copy Account](-01.png)
 
 > 💡 **Payment Note**:
@@ -65,8 +65,8 @@
 > * **ONLY** log in within the **App Store** app.
 
 #### 6. After logging in, search for `Shadowrocket`.
-* Please ensure the developer is **Shadow Launch Technology Limited**.
-* Click the download icon (if using a paid shared account, seeing a cloud icon is normal; you do not need to pay again).
+- Please ensure the developer is **Shadow Launch Technology Limited**.
+- Click the download icon (if using a paid shared account, seeing a cloud icon is normal; you do not need to pay again).
 ![Search App](-09.png)
 ![Confirm Download](-10.png)
 
