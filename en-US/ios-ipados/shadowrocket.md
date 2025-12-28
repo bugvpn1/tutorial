@@ -15,7 +15,7 @@
 
 ### 🏪 Official Channel (The Only Way)
 
-> ⚠️ **Important Notice**
+> **Important Notice**
 >
 > - **Cannot be downloaded** from the App Store in Mainland China.
 > - Requires a **Non-Mainland China Apple ID** (e.g., US, Hong Kong).
@@ -25,6 +25,9 @@
 
 ### 🔑 Get an Apple ID
 #### Method 1: Get a Free Account with Shadowrocket (Recommended)
+> ⚠️⚠️ **High-Risk Warning: If you are using a shared ID (Method 1), NEVER log in via Settings!**
+> * **ABSOLUTELY DO NOT** log in to this shared account in your device's system 「Settings」 or 「iCloud」. Doing so may cause your device to be locked!
+> * **ONLY** log in within the **App Store** app.
 
 ##### 1. Visit the **[Free Shadowrocket Account Community](https://ids.ailiao.eu/)**
 ##### 2. Find a recently updated account and click **Copy Account** and **Copy Password**.
@@ -66,8 +69,8 @@
 #### 5. After the page refreshes and returns to the top, enter the **Overseas Apple ID and Password** you just obtained, then tap Sign In.
 ![Enter Credentials](-06.png)
 ![AppStore Login Only](-07.jpg)
-> ⚠️ **High-Risk Warning: If you are using a shared ID (Method 1), NEVER log in via Settings!**
-> * **ABSOLUTELY DO NOT** log in to this shared account in your phone's system 「Settings」 or 「iCloud」. Doing so may cause your phone to be locked!
+> ⚠️⚠️ **High-Risk Warning: If you are using a shared ID (Method 1), NEVER log in via Settings!**
+> * **ABSOLUTELY DO NOT** log in to this shared account in your device's system 「Settings」 or 「iCloud」. Doing so may cause your device to be locked!
 > * **ONLY** log in within the **App Store** app.
 
 #### 6. **‼️ Critical Step**: If a security prompt appears during login, you must select **"Other Options"** -> **"Don't Upgrade"**.
@@ -82,6 +85,15 @@
 
 ![Search App](-10.jpg)
 ![Confirm Download](-11.png)
+
+---
+
+> **💡 Pro Tip:**
+> Since you are already logged into the International Apple ID, we recommend downloading other popular apps that may not be available in your local region, such as:
+> * **Social & Video:** TikTok, YouTube, Instagram, Netflix
+> * **Productivity:** Google Search, Google Maps, Gmail
+> * **Messaging:** WhatsApp, Telegram
+> Doing this now will save you the hassle of switching accounts back and forth later.
 
 #### 8. **‼️ Critical Step**: After the download is complete, please **Sign Out immediately** and switch back to your own Apple ID.
 ---

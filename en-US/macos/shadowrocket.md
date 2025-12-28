@@ -8,7 +8,7 @@
 
 ### 🏪 Official Channel (The Only Way)
 
-> ⚠️ **Important Notice**
+> **Important Notice**
 >
 > - **Cannot be downloaded** from the App Store in Mainland China.
 > - Requires a **Non-Mainland China Apple ID** (e.g., US, Hong Kong).
@@ -18,6 +18,9 @@
 
 ### 🔑 Get an Apple ID
 #### Method 1: Get a Free Account with Shadowrocket (Recommended)
+> ⚠️⚠️ **High-Risk Warning: If you are using a shared ID (Method 1), NEVER log in via System Settings!**
+> * **ABSOLUTELY DO NOT** log in to this shared account in your Mac's 「System Settings」 or 「iCloud」. Doing so may cause your device to be locked!
+> * **ONLY** log in within the **App Store** app.
 
 ##### 1. Visit the **[Free Shadowrocket Account Community](https://ids.ailiao.eu/)**
 ##### 2. Find a recently updated account and click **Copy Account** and **Copy Password**.
@@ -60,7 +63,7 @@
 #### 5. **‼️ Critical Step**: If a security prompt appears during login, you must select **"Other Options"** -> **"Don't Upgrade"**.
 ![-07.png](-07.png)
 ![-08.png](-08.png)
-> ⚠️ **High-Risk Warning: If you are using a shared ID (Method 1), NEVER log in via System Settings!**
+> ⚠️⚠️ **High-Risk Warning: If you are using a shared ID (Method 1), NEVER log in via System Settings!**
 > * **ABSOLUTELY DO NOT** log in to this shared account in your Mac's 「System Settings」 or 「iCloud」. Doing so may cause your device to be locked!
 > * **ONLY** log in within the **App Store** app.
 
@@ -70,6 +73,15 @@
 
 ![Search App](-09.png)
 ![Confirm Download](-10.png)
+
+---
+
+> **💡 Pro Tip:**
+> Since you are already logged into the International Apple ID, we recommend downloading other popular apps that may not be available in your local region, such as:
+> * **Social & Video:** TikTok, YouTube, Instagram, Netflix
+> * **Productivity:** Google Search, Google Maps, Gmail
+> * **Messaging:** WhatsApp, Telegram
+> Doing this now will save you the hassle of switching accounts back and forth later.
 
 #### 7. **‼️ Critical Step**: After the download is complete, please **Sign Out immediately** and switch back to your own Apple ID.
 ---
