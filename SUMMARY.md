@@ -16,14 +16,14 @@ en-US:
         icon: zh-CN/ios-ipados/shadowrocket.png
         updated_at: 2025-07-10
   - title: Android
-    path: zh-CN/android/README.md
+    path: en-US/android/README.md
     subItems:
       - title: v2rayNG
         path: en-US/android/v2rayng.md
         icon: zh-CN/android/v2rayng.png
         updated_at: 2025-07-10
   - title: iOS / iPadOS
-    path: zh-CN/ios-ipados/README.md
+    path: en-US/ios-ipados/README.md
     subItems:
       - title: Shadowrocket
         path: en-US/ios-ipados/shadowrocket.md
