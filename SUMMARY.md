@@ -29,7 +29,13 @@ en-US:
         path: en-US/ios-ipados/shadowrocket.md
         icon: zh-CN/ios-ipados/shadowrocket.png
         updated_at: 2025-07-10
-  
+  - title: Linux
+    subItems:
+      - title: v2rayN
+        path: en-US/linux/v2rayn.md
+        icon: zh-CN/windows/v2rayN.png
+        updated_at: 2025-07-10
+
 zh-CN:
   - title: Windows
     path: zh-CN/windows/README.md
@@ -59,7 +65,13 @@ zh-CN:
         path: zh-CN/ios-ipados/shadowrocket.md
         icon: zh-CN/ios-ipados/shadowrocket.png
         updated_at: 2025-07-10
-  
+  - title: Linux
+    subItems:
+      - title: v2rayN
+        path: zh-CN/linux/v2rayn.md
+        icon: zh-CN/windows/v2rayN.png
+        updated_at: 2025-07-10
+
 ---
 # Table of contents
 
@@ -73,6 +85,8 @@ zh-CN:
   * [v2rayNG](en-US/android/v2rayng.md)
 * [iOS / iPadOS](en-US/ios-ipados/README.md)
   * [Shadowrocket](en-US/ios-ipados/shadowrocket.md)
+* Linux
+  * [v2rayN](en-US/linux/v2rayn.md)
 
 ## zh-CN
 
@@ -84,3 +98,5 @@ zh-CN:
   * [v2rayNG](zh-CN/android/v2rayng.md)
 * [iOS / iPadOS](zh-CN/ios-ipados/README.md)
   * [Shadowrocket](zh-CN/ios-ipados/shadowrocket.md)
+* Linux
+  * [v2rayN](zh-CN/linux/v2rayn.md)
