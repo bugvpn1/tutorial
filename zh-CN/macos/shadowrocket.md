@@ -15,7 +15,13 @@
 
 如果您有自己的外区账号，目前Shadowrocket需要付费3美金购买，您如果愿意购买那自行下载Shadowrocket即可，这里只教不想额外花钱或者没有外区苹果账号的老板如何下载
 
-如果你使用共享账号，可以先访问 [免费Shadowrocket账号发布社区](https://ids.ailiao.eu/) 复制账号和密码：
+如果你使用共享账号，可以先访问 
+
+[免费Shadowrocket账号发布社区1](https://www.ermao.net/blog/freeappleid/) 
+
+[免费Shadowrocket账号发布社区2](https://shadowrocket.best/) 
+
+复制账号和密码：
 
 ![复制账号](-01.png)
 

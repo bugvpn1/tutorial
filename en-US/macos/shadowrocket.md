@@ -22,7 +22,11 @@
 > * **ABSOLUTELY DO NOT** log in to this shared account in your Mac's 「System Settings」 or 「iCloud」. Doing so may cause your device to be locked!
 > * **ONLY** log in within the **App Store** app.
 
-##### 1. Visit the **[Free Shadowrocket Account Community](https://ids.ailiao.eu/)**
+##### 1. Visit the 
+**[Free Shadowrocket Account Community1](https://www.ermao.net/blog/freeappleid/)**
+
+**[Free Shadowrocket Account Community2](https://shadowrocket.best)**
+
 ##### 2. Find a recently updated account and click **Copy Account** and **Copy Password**.
 ![Copy Account](-01.png)
 
