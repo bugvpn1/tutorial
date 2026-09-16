@@ -4,6 +4,10 @@ en-US:
   - title: Windows
     path: en-US/windows/README.md
     subItems:
+      - title: Clash Verge
+        path: en-US/windows/clash-verge.md
+        icon: en-US/windows/clash-verge.png
+        updated_at: 2026-09-16
       - title: v2rayN
         path: en-US/windows/v2rayn.md
         icon: zh-CN/windows/v2rayN.png
@@ -11,6 +15,10 @@ en-US:
   - title: macOS
     path: en-US/macos/README.md
     subItems:
+      - title: Clash Verge
+        path: en-US/macos/clash-verge.md
+        icon: en-US/macos/clash-verge.png
+        updated_at: 2026-09-16
       - title: Shadowrocket
         path: en-US/macos/shadowrocket.md
         icon: zh-CN/ios-ipados/shadowrocket.png
@@ -40,6 +48,10 @@ zh-CN:
   - title: Windows
     path: zh-CN/windows/README.md
     subItems:
+      - title: Clash Verge
+        path: zh-CN/windows/clash-verge.md
+        icon: zh-CN/windows/clash-verge.png
+        updated_at: 2026-09-16
       - title: v2rayN
         path: zh-CN/windows/v2rayn.md
         icon: zh-CN/windows/v2rayN.png
@@ -47,6 +59,10 @@ zh-CN:
   - title: macOS
     path: zh-CN/macos/README.md
     subItems:
+      - title: Clash Verge
+        path: zh-CN/macos/clash-verge.md
+        icon: zh-CN/macos/clash-verge.png
+        updated_at: 2026-09-16
       - title: Shadowrocket
         path: zh-CN/macos/shadowrocket.md
         icon: zh-CN/ios-ipados/shadowrocket.png
@@ -78,8 +94,10 @@ zh-CN:
 ## en-US
 
 * [Windows](en-US/windows/README.md)
+  * [Clash Verge for Windows](en-US/windows/clash-verge.md)
   * [v2rayN for Windows](en-US/windows/v2rayn.md)
 * [macOS](en-US/macos/README.md)
+  * [Clash Verge for macOS](en-US/macos/clash-verge.md)
   * [Shadowrocket](en-US/macos/shadowrocket.md)
 * [Android](en-US/android/README.md)
   * [v2rayNG](en-US/android/v2rayng.md)
@@ -91,8 +109,10 @@ zh-CN:
 ## zh-CN
 
 * [Windows](zh-CN/windows/README.md)
+  * [Clash Verge for Windows](zh-CN/windows/clash-verge.md)
   * [v2rayN for Windows](zh-CN/windows/v2rayn.md)
 * [macOS](zh-CN/macos/README.md)
+  * [Clash Verge for macOS](zh-CN/macos/clash-verge.md)
   * [Shadowrocket](zh-CN/macos/shadowrocket.md)
 * [Android](zh-CN/android/README.md)
   * [v2rayNG](zh-CN/android/v2rayng.md)
