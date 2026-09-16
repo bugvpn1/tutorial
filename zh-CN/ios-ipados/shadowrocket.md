@@ -29,9 +29,13 @@
 - ❌ 没有账号 → 使用共享账号（如果账号异常或者没有免费Shadowrocket，多试几个！）
 
 👉 获取地址：  
- [免费Shadowrocket账号发布社区1](https://www.ermao.net/blog/freeappleid/)
+ [免费Shadowrocket账号发布社区1](https://fanqiangnan.com/appleid.html)
 
- [免费Shadowrocket账号发布社区2](https://shadowrocket.best/) 
+ [免费Shadowrocket账号发布社区2](https://ids.ailiao.eu/)
+
+ [免费Shadowrocket账号发布社区3](https://www.ermao.net/blog/freeappleid/)
+
+ [免费Shadowrocket账号发布社区4](https://shadowrocket.best/)
 
   复制账号和密码：
 

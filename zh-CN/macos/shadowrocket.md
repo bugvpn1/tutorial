@@ -17,9 +17,13 @@
 
 如果你使用共享账号，可以先访问 
 
-[免费Shadowrocket账号发布社区1](https://www.ermao.net/blog/freeappleid/) 
+[免费Shadowrocket账号发布社区1](https://fanqiangnan.com/appleid.html)
 
-[免费Shadowrocket账号发布社区2](https://shadowrocket.best/) 
+[免费Shadowrocket账号发布社区2](https://ids.ailiao.eu/)
+
+[免费Shadowrocket账号发布社区3](https://www.ermao.net/blog/freeappleid/)
+
+[免费Shadowrocket账号发布社区4](https://shadowrocket.best/)
 
 复制账号和密码：
 

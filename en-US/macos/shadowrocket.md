@@ -23,9 +23,13 @@
 > * **ONLY** log in within the **App Store** app.
 
 ##### 1. Visit the 
-**[Free Shadowrocket Account Community1](https://www.ermao.net/blog/freeappleid/)**
+**[Free Shadowrocket Account Community1](https://fanqiangnan.com/appleid.html)**
 
-**[Free Shadowrocket Account Community2](https://shadowrocket.best)**
+**[Free Shadowrocket Account Community2](https://ids.ailiao.eu/)**
+
+**[Free Shadowrocket Account Community3](https://www.ermao.net/blog/freeappleid/)**
+
+**[Free Shadowrocket Account Community4](https://shadowrocket.best)**
 
 ##### 2. Find a recently updated account and click **Copy Account** and **Copy Password**.
 ![Copy Account](-01.png)
