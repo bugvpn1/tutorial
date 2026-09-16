@@ -1,188 +1,109 @@
-# ⚡ Clash Verge - Modern Cross-Platform Proxy Tool
+# Clash Verge (Windows)
 
-> 🚀 **Powerful Cross-Platform Proxy Client** | Based on Clash core with modern GUI interface
+![Clash Verge](clash-verge.png)
 
-[Clash Verge](https://github.com/clash-verge-rev/clash-verge-rev) is a modern GUI client based on the Clash core, supporting Windows, Linux, and macOS platforms. It features powerful routing rules and comprehensive proxy protocol support with an intuitive user interface.
+This guide covers the simplest way to get Clash Verge Rev working. Its Windows and macOS interfaces are nearly identical.
 
-## 📊 Platform Support
+## Step 0: Download and Install
 
-| Platform | Version Requirement | Architecture | Status |
-|----------|-------------------|--------------|--------|
-| 🪟 **Windows** | Windows 7+ | x64 / x86 | ✅ Full Support |
-| 🐧 **Linux** | Ubuntu 18.04+ | x64 / ARM64 | ✅ Full Support |
-| 🍎 **macOS** | macOS 10.15+ | Intel / Apple Silicon | ✅ Full Support |
+Choose a download source based on your network:
 
-## 🔧 System Requirements
+| Download source | Compatible devices | Link |
+| :--- | :--- | :--- |
+| Fast mirror (Mainland China, recommended) | Most Intel/AMD PCs | [Download Clash Verge v2.5.2](https://dl.onsucloud.com/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.2/Clash.Verge_2.5.2_x64-setup.exe) |
+| Official source | x64 or ARM64 devices | [Open the official GitHub releases page](https://github.com/clash-verge-rev/clash-verge-rev/releases/latest) |
 
-### Windows Environment
+> The mirror provides the `x64-setup.exe` build used by most Windows PCs. Windows on ARM users should download the `arm64-setup.exe` build from the official source.
 
-| Item | Requirement | Recommended |
-|------|-------------|-------------|
-| **Operating System** | Windows 7+ | Windows 10/11 |
-| **Architecture** | 32/64-bit | 64-bit |
-| **Device Type** | PC / Tablet | Desktop |
-| **Memory** | 2GB+ | 4GB+ |
-| **Storage** | 100MB+ | 500MB+ |
+| Windows device | File to choose |
+| :--- | :--- |
+| Most Intel/AMD PCs | A filename containing `x64-setup.exe` |
+| Windows on ARM device | A filename containing `arm64-setup.exe` |
 
-## 📥 Official Downloads
+Recent Clash Verge Rev versions no longer support Windows 7. Use Windows 10 or Windows 11. Run the downloaded installer and follow the setup prompts.
 
-> 💡 **Download Tips**: Recommend choosing the latest version for best experience and security
+If Windows SmartScreen appears after downloading from the official releases page, click **More info > Run anyway**. If the app opens to a blank screen or does not display correctly, return to the official releases page and download the installer whose filename contains `fixed_webview2`.
 
-### 🌟 Main Download Sources
+## Step 1: Select English
 
-| Download Source | Type | Speed | Recommendation |
-|----------------|------|-------|----------------|
-| [📦 Official GitHub](https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.7.7/Clash.Verge_1.7.7_x64-setup.exe) | Official | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
-| [🚀 Mirror Accelerated](https://gh.xxooo.cf/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.7.7/Clash.Verge_1.7.7_x64-setup.exe) | Mirror | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ |
-| [🔗 Backup Link](https://git.886.be/https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v1.7.7/Clash.Verge_1.7.7_x64-setup.exe) | Mirror | ⭐⭐⭐⭐ | ⭐⭐⭐ |
+Open Clash Verge, go to **Settings**, and set **Language** to **English**. If the interface does not update immediately, quit and reopen the app.
 
-### 📋 Version Information
+![Select English](clash-verge-en-01.png)
 
-- **Current Version**: v1.7.7
-- **File Size**: ~80MB
-- **File Type**: Windows Installer (.exe)
-- **Digital Signature**: ✅ Signed
+## Step 2: Copy and Import Your Subscription
 
-## ⚠️ Security Notice
+Open your customer dashboard and copy the complete **subscription URL**. Treat this URL like an account credential: do not share it with anyone or post it publicly.
 
-### 🛡️ Windows Security Settings
+In Clash Verge:
 
-> **First launch may encounter security prompts**
+1. Click **Profiles** in the left sidebar.
+2. Paste the subscription URL into the field at the top.
+3. Click **IMPORT**.
 
-Windows 10/11 users may see Windows Defender SmartScreen security prompt on first launch:
+![Import the subscription](clash-verge-en-02.png)
 
-#### 🔧 Solution Steps
+> Do not click **NEW** to create a configuration manually. Most users only need to paste the subscription URL and click **IMPORT**.
 
-1. **Click "More info"** - Expand detailed information
-2. **Click "Run anyway"** - Confirm running the application
-3. **Add to whitelist** - Avoid future prompts
+## Step 3: Confirm and Refresh the Profile
 
-> 💡 **Security Note**: This is normal security check for unknown publisher software. Clash Verge is open-source and secure.
+After a successful import, a profile card appears. It normally shows usage, expiration, and update information. If you have several profiles, click the one you want to use.
 
-## 🚀 Quick Configuration Tutorial
+Click the **circular arrow** in the upper-right corner of the profile card to refresh it manually. Refresh once after importing. If servers later disappear, stop connecting, or become unusually slow, refresh the profile first.
 
-### 📥 Step 1: Import Configuration File
+![Confirm and refresh the profile](clash-verge-en-03.png)
 
-![Configuration Import Interface](clash-verge-03.png)
+## Step 4: Test and Select a Proxy
 
-> **Import Method Selection**: Supports URL subscription and local file import
+1. Click **Proxies** in the left sidebar.
+2. In the proxy group you want to use, click the **Wi-Fi-shaped button** near the top to run a latency test.
+3. Wait for the test to finish, then click an available proxy.
 
-![Configuration Settings](clash-verge-04.png)
+![Test and select a proxy](clash-verge-en-04.png)
 
-> **Parameter Configuration**: Fill in subscription link or select configuration file
+Latency is shown in milliseconds (ms). A lower number usually means a faster response, although actual speed also depends on server load and network conditions. If you are unsure what to choose, start with **Auto Select** or a proxy with low latency.
 
-![Configuration Confirmation](clash-verge-05.png)
+## Step 5: Enable System Proxy
 
-> **Configuration Verification**: Check if configuration information is correct
+1. Click **Home** in the left sidebar.
+2. Keep the proxy mode set to **Rule** (recommended).
+3. Turn on **System Proxy**.
+4. If Windows requests firewall or administrator permission, follow the system prompt and allow it.
 
-![Apply Configuration](clash-verge-06.jpg)
+![Enable System Proxy](clash-verge-en-05.png)
 
-> **Activate Configuration**: Apply configuration and enable proxy service
+Once enabled, open a website that requires the proxy. If it does not load, return to **Proxies**, select another server, and refresh the page.
 
-### 🔄 Step 2: Update Configuration File
+### Which proxy mode should I use?
 
-![Configuration Update](clash-verge-07.png)
+- **Rule**: Routes traffic according to the rules in your profile. Recommended for everyday use.
+- **Global**: Sends most traffic through the proxy. Use it only for temporary troubleshooting.
+- **Direct**: Bypasses proxy servers. Traffic will not use your selected proxy in this mode.
 
-> **Automatic Update**: Regularly update configuration to get latest node information
+## How to Turn It Off
 
-## ✨ Key Features
+Return to **Home** and turn off **System Proxy**. Turn off the switch before quitting Clash Verge so Windows does not retain an unavailable proxy configuration.
 
-### 🎯 Core Functions
+## Signs That It Is Working
 
-- **🚀 High-Performance Core**: Based on Clash core, excellent performance
-- **🎨 Modern Interface**: Material Design style, simple operation
-- **📊 Real-time Monitoring**: Traffic statistics, connection monitoring, speed testing
-- **🛡️ Rule Routing**: Smart routing, custom rule support
+- The profile card appears under **Profiles** and refreshes without an error.
+- Servers appear under **Proxies**, and the latency test returns numbers.
+- A proxy is selected and **System Proxy** is enabled.
+- Your browser can open the target website.
 
-### 🔧 Advanced Features
+## Common Problems
 
-- **⚡ Policy Group Management**: Flexible node grouping and switching
-- **📈 Performance Optimization**: Low memory usage, optimized CPU utilization
-- **🌐 Multi-Protocol Support**: Shadowsocks, V2Ray, Trojan, etc.
-- **🔄 Auto Update**: Automatic configuration file and rule updates
+- **No servers after importing**: Click the circular refresh arrow on the profile card. If it remains empty, copy the complete subscription URL again and re-import it.
+- **Servers appear, but websites do not load**: Make sure **System Proxy** is enabled, then select another server that passed the latency test.
+- **Every server times out**: Refresh the profile, verify your normal internet connection, and check whether the subscription has expired.
+- **Only some apps bypass the proxy**: Some apps do not follow the system proxy. Beginners should not enable the virtual network adapter/TUN mode at random; confirm the basic steps first, then contact support if needed.
+- **Another proxy app is running**: Multiple apps can overwrite the same system proxy settings. Quit other proxy apps before using Clash Verge.
 
-## ❓ Frequently Asked Questions
+## Still Not Working?
 
-### 🔧 Installation Related
+Sign in to the website dashboard and open **User Support > Ticket Management** to submit a ticket.
 
-**Q: Antivirus reports virus during installation?**
+Include:
 
-A: This is a false positive. Clash Verge is open-source software. You can:
-
-1. Add to antivirus whitelist
-2. Temporarily disable real-time protection for installation
-3. Download from official GitHub to ensure file integrity
-
-**Q: Unable to start after installation?**
-
-A: Please check:
-
-1. System meets minimum requirements
-2. No conflicts with other proxy software
-3. Try running as administrator
-4. Re-download installation package
-
-### 🌐 Usage Related
-
-**Q: How to import configuration?**
-
-A: Multiple import methods supported:
-
-1. **URL Subscription**: Directly paste subscription link
-2. **Local File**: Select local .yaml configuration file
-3. **Clipboard Import**: Import configuration directly from clipboard
-
-**Q: Configuration update fails?**
-
-A: Try these solutions:
-
-1. Check network connection is normal
-2. Verify subscription link is valid
-3. Try manual configuration update
-4. Re-import configuration file
-
-## 🎨 Interface Preview
-
-### Main Interface Features
-
-- **🎨 Material Design**: Modern design language
-- **🌙 Dark Theme**: Eye-friendly dark mode
-- **📊 Data Visualization**: Intuitive traffic statistics charts
-- **⚡ Quick Switch**: One-click proxy mode and node switching
-
-### Function Modules
-
-- **📊 Dashboard**: Real-time status monitoring
-- **🔧 Configuration**: Configuration file management
-- **📈 Connections**: Connection details view
-- **⚙️ Settings**: Personalized setting options
-
-## 🔄 Update Log
-
-### v1.7.7 (2024.11.16)
-
-- ✨ Added: Support for more proxy protocols
-- 🐛 Fixed: Configuration update exception issues
-- ⚡ Optimized: Interface response speed improvement
-- 🛡️ Enhanced: Security and stability improvements
-
-## 🆚 Software Comparison
-
-| Feature | Clash Verge | Other Clients | Advantage |
-|---------|-------------|---------------|-----------|
-| **Interface Design** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | Modern Material Design |
-| **Performance** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | Efficient Rust implementation |
-| **Feature Richness** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | Complete Clash feature support |
-| **Update Frequency** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | Active development maintenance |
-| **Open Source Level** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | Fully open source, transparent security |
-
-## 📞 Get Help
-
-- 🌐 **Project Homepage**: [GitHub Repository](https://github.com/clash-verge-rev/clash-verge-rev)
-- 📋 **Issue Reporting**: [Issues Page](https://github.com/clash-verge-rev/clash-verge-rev/issues)
-- 💬 **Community Discussion**: [Discussions Forum](https://github.com/clash-verge-rev/clash-verge-rev/discussions)
-- 📚 **Documentation**: [Wiki Documentation](https://github.com/clash-verge-rev/clash-verge-rev/wiki)
-
----
-
-> 📅 Last Updated: July 10, 2025 | ⚡ Compatible Version: Clash Verge v1.7.7+
+- Screenshots of the **Profiles** and **Proxies** pages (hide your subscription URL)
+- The currently selected proxy
+- The error message and the step where you got stuck
