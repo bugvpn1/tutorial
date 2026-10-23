@@ -1,441 +1,98 @@
-# ⚔️ Clash Meta for Android - Powerful Open Source Proxy Tool
+# Clash Meta for Android (CMFA)
 
-> 🌟 [Clash Meta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid) is an Android proxy client developed based on the Clash Meta core, offering a powerful rule engine and rich feature set.
+![Clash Meta for Android](clash-meta.png)
 
-## ✨ Product Features
+> Clash Meta for Android is a graphical Clash.Meta client for Android. It is not the discontinued legacy Clash for Android (CFA); this guide covers the actively maintained CMFA project.
 
-### 🎯 Core Advantages
+## Step 0: Install the app
 
-- 🆓 **Completely Free**: Open source project, permanently free to use
-- 🚀 **Exceptional Performance**: Based on Clash Meta kernel with excellent performance
-- 🎨 **Modern Interface**: Material Design specifications
-- 🔧 **Rich Features**: Supports various advanced functions and configurations
-- 🛡️ **Secure & Reliable**: Open source transparency with community maintenance
+Both links below download the same package: Clash Meta for Android v2.11.32 for ARM64 devices.
 
-### 🔗 Protocol Support
+| Download source | Link |
+|---|---|
+| Fast mirror | [Download Android APK](https://dl.onsucloud.com/https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.32/cmfa-2.11.32-meta-arm64-v8a-release.apk) |
+| Official GitHub download | [Download Android APK](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.32/cmfa-2.11.32-meta-arm64-v8a-release.apk) |
 
-| Protocol | Support Status | Feature Description |
-|----------|----------------|---------------------|
-| 🔒 Shadowsocks (SS) | ✅ | Classic protocol, stable and reliable |
-| 🔓 ShadowsocksR (SSR) | ✅ | Enhanced features with obfuscation support |
-| 🧦 SOCKS5 | ✅ | Universal proxy protocol |
-| 🐚 Snell | ✅ | High-performance protocol |
-| 🌟 V2Ray (VMess/VLESS) | ✅ | Modern protocol suite |
-| 🛡️ Trojan | ✅ | TLS encryption disguise |
-| 🚀 Hysteria | ✅ | High-speed QUIC-based protocol |
-| 🔐 WireGuard | ✅ | Modern VPN protocol |
+> This package is for `arm64-v8a` devices, including most recent Android phones and tablets.
 
-### 📱 System Requirements
+The official package name is `com.github.metacubex.clash.meta`. Android may ask you to allow your browser or file manager to install unknown apps.
 
-- **Minimum Version**: Android 7.0 (API 24) and above
-- **Recommended Version**: Android 9.0 and above
-- **Compatible Devices**: Android phones / tablets
-- **Architecture Support**: ARM64, ARM, x86_64
-- **Storage Required**: Approximately 100MB available space
+## Step 1: Copy the subscription URL
 
----
+Sign in to the customer portal, open My Subscriptions, select Android, and click Copy next to the subscription URL.
 
-## 📥 Download & Installation
+![Copy the subscription URL](clash-meta-for-Android-01.png)
 
-### 🔗 Official Release
+> Do not share this URL. It normally contains credentials for your account.
 
-> ⚠️ **Download Notice**: Please download the latest version from the official GitHub Release page
+## Step 2: Open Profiles
 
-| Download Source | Version | Description |
-|----------------|---------|-------------|
-| 🏠 GitHub Release | 2.11.6-alpha | [Official Release](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/Prerelease-alpha/cmfa-2.11.6-alpha-universal-release.apk) |
-| 🚀 Mirror Accelerator 1 | 2.11.6-alpha | [Accelerated Download](https://git.886.be/https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/Prerelease-alpha/cmfa-2.11.6-alpha-universal-release.apk) |
-| 🚀 Mirror Accelerator 2 | 2.11.6-alpha | [Backup Link](https://gh.xxooo.cf/https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/Prerelease-alpha/cmfa-2.11.6-alpha-universal-release.apk) |
-| 📦 Cloud Storage | 2.11.6-alpha | [LanzouCloud](https://tagcloud.lanzouw.com/i02u02b85x8d) |
+Open Clash Meta for Android and tap `Profiles` on the home screen.
 
-### 🛠️ Installation Steps
+![Open Profiles](clash-meta-for-Android-02.jpg)
 
-1. **Download Application**
-   - Choose any download link above
-   - Download `cmfa-2.11.6-alpha-universal-release.apk`
+## Step 3: Create a profile
 
-2. **Allow Installation**
-   - Settings → Security → Enable "Unknown Sources"
-   - Or select "Allow this installation" when prompted
+Tap the `+` button in the upper-right corner.
 
-3. **Complete Installation**
-   - Tap the APK file to start installation
-   - Follow prompts to complete the installation process
+![Create a profile](clash-meta-for-Android-03.jpg)
 
----
+Select `URL` to import a remote profile.
 
-## 🚀 Usage Tutorial
+![Select URL import](clash-meta-for-Android-04.jpg)
 
-### 📋 Configuration Steps
+## Step 4: Paste the subscription URL
 
-#### 🔥 Step Overview
+Enter a recognizable name, paste the subscription URL in the URL field, and tap the save button in the upper-right corner.
 
-1. **📱 Launch Application** - Open Clash Meta for Android
-2. **⚙️ Import Configuration** - Add subscription links or configuration files
-3. **🌐 Select Nodes** - Choose servers from the node list
-4. **🚀 Enable Proxy** - Start the proxy service
-5. **✅ Verify Connection** - Confirm proxy functionality is working
+![Enter the subscription URL](clash-meta-for-Android-05.jpg)
 
-### 🎯 Detailed Operation
+## Step 5: Activate the profile
 
-#### 🌟 Step 1: Application Launch
+Return to the profile list and select the profile you just added. A selected indicator on its left means the profile is active.
 
-Open the installed Clash Meta and enter the main interface:
+![Activate the profile](clash-meta-for-Android-06.jpg)
 
-![Application Launch Interface](clash-meta-for-Android-01.png)
+If the nodes do not update, tap the refresh button in the upper-right corner. If refreshing fails, check that the subscription is active and that the complete URL was pasted.
 
-> 💡 First launch will request network permissions, please tap "Allow"
+## Step 6: Connect
 
-#### ⚙️ Step 2: Configuration Management
+Return to the home screen and tap the top card showing `Stopped`. On the first connection, Android displays a VPN connection request; tap Allow or OK.
 
-Tap the "Configuration" tab to enter the configuration management page:
+![Start the connection](clash-meta-for-Android-07.jpg)
 
-![Configuration Management Page](clash-meta-for-Android-02.jpg)
+The card turns blue and shows `Running`. A VPN icon also appears in the Android status bar.
 
-#### 📥 Step 3: Import Configuration
+![Connection successful](clash-meta-for-Android-08.jpg)
 
-Tap the "+" button in the top right corner and select import method:
+## Choose a server
 
-![Import Configuration Options](clash-meta-for-Android-03.jpg)
+To switch servers manually, tap `Proxy` on the home screen, open the relevant policy group, and select a server. Lower latency usually means a faster response on the current network. A failed latency test does not always mean the server is unusable, so you can switch to it and test a website directly.
 
-#### 📝 Step 4: Configuration Information
+## Troubleshooting
 
-Enter configuration information (subscription link or configuration file):
+### No servers appear after import
 
-![Configuration Information Entry](clash-meta-for-Android-04.jpg)
+- Refresh the profile and wait for the update to finish.
+- Make sure you copied a Clash or universal subscription URL, not the plan purchase page.
+- Copy the complete URL again in a browser; messaging apps can truncate long links.
 
-#### ⏳ Step 5: Wait for Loading
+### The app says Running, but websites do not load
 
-After importing configuration, wait for node information to load completely:
+- Open Proxy and switch to another server.
+- Temporarily disable other VPNs, ad blockers, or Private DNS.
+- Stop the service, start it again, and accept the Android VPN request.
 
-![Configuration Loading Process](clash-meta-for-Android-05.jpg)
+### Update the subscription
 
-#### 🌐 Step 6: Select Nodes
+Open Profiles and tap the refresh button in the upper-right corner. Refresh after changing plans or whenever the server list changes.
 
-Choose appropriate servers from the node list:
+### Why not use the legacy Clash for Android?
 
-![Node Selection Interface](clash-meta-for-Android-06.jpg)
-
-#### ✅ Step 7: Confirm Configuration
-
-Review configuration information and save after confirming it's correct:
-
-![Configuration Confirmation Screen](clash-meta-for-Android-07.jpg)
-
-#### 🚀 Step 8: Start Service
-
-Return to the main interface and enable the proxy service:
-
-![Connection Status Display](clash-meta-for-Android-08.jpg)
+The legacy Clash for Android is no longer maintained. Use Clash Meta for Android and download it only from the official GitHub repository or F-Droid to avoid unofficial repackaged APKs.
 
 ---
 
-## 🎛️ Advanced Features
+Last verified: October 23, 2026
 
-### 📊 Rule Management
-
-#### 🎯 Traffic Routing Rules
-
-- **Domain Rules**: Smart traffic splitting based on domain names
-- **IP Rules**: Precise traffic routing based on IP addresses
-- **GeoIP Rules**: Automatic routing based on geographical location
-- **Custom Rules**: Support for user-defined routing rules
-
-#### 📋 Rule Configuration Examples
-
-```yaml
-# Domain-based rules
-rules:
-  - DOMAIN-SUFFIX,google.com,PROXY
-  - DOMAIN,www.google.com,PROXY
-  - DOMAIN-KEYWORD,google,PROXY
-
-# IP-based rules
-  - IP-CIDR,192.168.0.0/16,DIRECT
-  - IP-CIDR,10.0.0.0/8,DIRECT
-
-# GeoIP rules
-  - GEOIP,CN,DIRECT
-  - GEOIP,US,PROXY
-
-# Default rule
-  - MATCH,PROXY
-```
-
-### 🔄 Policy Group Configuration
-
-#### 🎛️ Group Types
-
-- **Auto Select**: Automatically choose the optimal node based on latency
-- **Load Balance**: Evenly distribute traffic across multiple nodes
-- **Fallback**: Automatically switch to backup nodes when primary fails
-- **Manual Select**: User manually specifies which node to use
-
-#### ⚙️ Configuration Examples
-
-```yaml
-proxy-groups:
-  - name: "Auto"
-    type: url-test
-    proxies:
-      - "Server1"
-      - "Server2"
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 300
-
-  - name: "LoadBalance"
-    type: load-balance
-    proxies:
-      - "Server1"
-      - "Server2"
-    url: 'http://www.gstatic.com/generate_204'
-    interval: 300
-```
-
-### 📈 Monitoring & Statistics
-
-#### 📊 Real-time Monitoring
-
-- **Live Traffic**: Display current upload/download speeds
-- **Connection Info**: View active connection details
-- **Log Records**: Detailed runtime log information
-- **Rule Matching**: Show rule hit situations
-
-#### 📈 Performance Metrics
-
-| Metric | Description | Update Frequency |
-|--------|-------------|------------------|
-| 🚀 **Speed** | Current transfer rates | Real-time |
-| 📊 **Traffic** | Total data consumed | Continuous |
-| 🔗 **Connections** | Active connection count | Real-time |
-| ⏱️ **Latency** | Response time to servers | Periodic |
-
----
-
-## 🔧 Advanced Configuration
-
-### 🌐 DNS Configuration
-
-```yaml
-dns:
-  enable: true
-  listen: 0.0.0.0:53
-  ipv6: false
-  default-nameserver:
-    - 223.5.5.5
-    - 8.8.8.8
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-```
-
-### 🎯 Custom Rules
-
-```yaml
-# Custom rule examples
-rules:
-  # Streaming services
-  - DOMAIN-SUFFIX,netflix.com,Streaming
-  - DOMAIN-SUFFIX,hulu.com,Streaming
-  - DOMAIN-SUFFIX,disney.com,Streaming
-
-  # Social media
-  - DOMAIN-SUFFIX,twitter.com,Social
-  - DOMAIN-SUFFIX,facebook.com,Social
-  - DOMAIN-SUFFIX,instagram.com,Social
-
-  # Gaming
-  - DOMAIN-SUFFIX,steam.com,Gaming
-  - DOMAIN-SUFFIX,epicgames.com,Gaming
-
-  # Ad blocking
-  - DOMAIN-SUFFIX,googleads.com,REJECT
-  - DOMAIN-SUFFIX,doubleclick.net,REJECT
-```
-
----
-
-## ⚠️ Important Notes
-
-### 🛡️ Security Reminders
-
-- **Configuration Sources**: Only use trusted configuration providers
-- **Permission Management**: Grant necessary permissions reasonably
-- **Regular Updates**: Update to the latest version promptly
-- **Backup Configurations**: Regularly backup important configuration files
-
-### 🔧 Compatibility
-
-- **System Version**: Ensure Android version meets requirements
-- **Hardware Architecture**: Download the appropriate architecture package
-- **Network Environment**: Some networks may restrict proxy functionality
-
----
-
-## ❓ Frequently Asked Questions
-
-### 🔧 Technical Support
-
-**Q: Unable to import configuration?**
-
-A: Please check:
-
-- ✅ Subscription link is correct
-- ✅ Network connection is normal
-- ✅ Configuration format is compatible
-- ✅ No firewall blocking access
-
-**Q: Connected but can't access internet?**
-
-A: Troubleshooting suggestions:
-
-- 🔄 Check if nodes are available
-- 📱 Confirm VPN permissions are granted
-- 🌐 Try switching to different nodes
-- 🛡️ Verify DNS settings
-
-**Q: App crashes or freezes?**
-
-A: Solutions:
-
-- 🔄 Restart app or device
-- 🗑️ Clear app cache and data
-- 📊 Check system resource usage
-- 📱 Update to latest version
-
-### 🌐 Network Issues
-
-**Q: Slow connection speeds?**
-
-A: Optimization tips:
-
-- 📍 Choose servers closer to your location
-- ⏰ Test at different times of day
-- 🔧 Try different protocols
-- 📊 Use built-in speed test
-
-**Q: Frequent disconnections?**
-
-A: Stability improvements:
-
-- 🔄 Enable auto-reconnect
-- 🛡️ Check battery optimization settings
-- 📶 Verify network stability
-- ⚙️ Adjust keep-alive settings
-
-### ⚙️ Configuration Issues
-
-**Q: Rules not working properly?**
-
-A: Check points:
-
-- 📋 Verify rule syntax is correct
-- 🎯 Check rule priority order
-- 🔍 Review rule matching logs
-- 🔄 Restart after rule changes
-
----
-
-## 🎯 Performance Optimization
-
-### ⚡ Speed Enhancement
-
-#### 🌍 Server Selection Strategy
-
-1. **Geographic Proximity**: Choose servers closest to your location
-2. **Load Testing**: Use built-in speed tests to compare servers
-3. **Peak Hours**: Avoid overcrowded servers during peak times
-4. **Protocol Optimization**: Test different protocols for best performance
-
-#### 🔧 Configuration Tuning
-
-```yaml
-# Performance optimization settings
-mixed-port: 7890
-allow-lan: false
-mode: rule
-log-level: info
-external-controller: 127.0.0.1:9090
-```
-
-### 🛡️ Stability Improvements
-
-- **Connection Redundancy**: Configure multiple servers in groups
-- **Auto-failover**: Enable automatic server switching
-- **Health Monitoring**: Regular connectivity checks
-- **Backup Configurations**: Maintain multiple config profiles
-
----
-
-## 🔗 Learning Resources
-
-### 📚 Official Documentation
-
-- 🏠 [Project Homepage](https://github.com/MetaCubeX/ClashMetaForAndroid)
-- 📖 [User Manual](https://github.com/MetaCubeX/ClashMetaForAndroid/wiki)
-- 🐛 [Issue Tracking](https://github.com/MetaCubeX/ClashMetaForAndroid/issues)
-- 💬 [Community Discussion](https://t.me/ClashMeta)
-
-### 🛠️ Technical Resources
-
-- 🔧 [Clash Meta Kernel](https://github.com/MetaCubeX/Clash.Meta)
-- 📋 [Configuration Examples](https://github.com/MetaCubeX/Clash.Meta/wiki)
-- 🎯 [Rule Collections](https://github.com/Loyalsoldier/clash-rules)
-- 🌐 [Community Configs](https://github.com/ACL4SSR/ACL4SSR)
-
-### 🎓 Learning Materials
-
-- 📺 [Video Tutorials](https://www.youtube.com/results?search_query=clash+meta+android)
-- 📝 [Blog Articles](https://docs.metacubex.one/)
-- 🔍 [Troubleshooting Guide](https://github.com/MetaCubeX/ClashMetaForAndroid/wiki/Troubleshooting)
-- 💡 [Configuration Tips](https://github.com/MetaCubeX/ClashMetaForAndroid/wiki/Configuration-Tips)
-
----
-
-## 💡 Best Practices
-
-### 🎯 Usage Recommendations
-
-1. **Regular Updates**: Keep the app updated for latest features and security patches
-2. **Multiple Profiles**: Maintain different profiles for different use cases
-3. **Rule Optimization**: Regularly review and optimize your routing rules
-4. **Monitor Performance**: Keep track of connection quality and speeds
-
-### 🛡️ Security Guidelines
-
-1. **Trusted Sources**: Only use configurations from reputable providers
-2. **Regular Audits**: Periodically review your proxy rules and configurations
-3. **Privacy Settings**: Configure DNS and leak protection properly
-4. **Log Management**: Monitor logs for unusual activity
-
----
-
-## 🎯 Summary & Evaluation
-
-### ✅ Strengths
-
-- 🆓 **Free & Open Source**: No cost with transparent development
-- 🚀 **High Performance**: Efficient Clash Meta kernel
-- 🎨 **Modern Interface**: Beautiful and intuitive Material Design
-- 🔧 **Rich Features**: Comprehensive rule engine and customization options
-- 🌐 **Protocol Support**: Extensive protocol compatibility
-
-### ❌ Considerations
-
-- 📚 **Learning Curve**: Advanced features require time to master
-- 🔄 **Alpha Status**: May have stability issues as pre-release software
-- 🛠️ **Configuration Complexity**: Can be overwhelming for beginners
-- 📱 **Resource Usage**: May consume more battery and memory
-
-### 🎯 Ideal For
-
-- 🔧 **Advanced Users**: Those who want extensive customization
-- 🆓 **Budget-Conscious**: Users seeking powerful free alternatives
-- 🎓 **Learning Enthusiasts**: Those interested in networking concepts
-- 🌐 **Rule-Based Routing**: Users needing complex traffic management
-
----
-
-> 📅 Last Updated: July 10, 2025 | ⚔️ Compatible Version: Clash Meta for Android 2.11.6-alpha
+Supported client: Clash Meta for Android 2.11.x

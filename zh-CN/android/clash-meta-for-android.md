@@ -1,222 +1,98 @@
-# ⚔️ Clash Meta for Android - 强大的开源代理工具
+# Clash Meta for Android（CMFA）
 
-> 🌟 [Clash Meta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid) 是基于 Clash Meta 核心开发的 Android 代理客户端，提供了强大的规则引擎和丰富的功能特性。
+![Clash Meta for Android](clash-meta.png)
 
-## ✨ 产品特色
+> Clash Meta for Android 是 Android 上的 Clash.Meta 图形客户端。它与已经停止维护的旧版 Clash for Android（CFA）不是同一个项目；本教程使用目前仍在更新的 CMFA。
 
-### 🎯 核心优势
+## 第 0 步：安装 App
 
-- 🆓 **完全免费**：开源项目，永久免费使用
-- 🚀 **性能卓越**：基于 Clash Meta 内核，性能优异
-- 🎨 **界面现代**：Material Design 设计规范
-- 🔧 **功能丰富**：支持多种高级功能和配置
-- 🛡️ **安全可靠**：开源透明，社区维护
+下面两个地址下载的是同一个安装包：Clash Meta for Android v2.11.32（ARM64）。
 
-### 🔗 协议支持
+| 下载方式 | 下载链接 |
+|---|---|
+| 镜像快速下载 | [下载 Android APK](https://dl.onsucloud.com/https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.32/cmfa-2.11.32-meta-arm64-v8a-release.apk) |
+| GitHub 官方下载 | [下载 Android APK](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.32/cmfa-2.11.32-meta-arm64-v8a-release.apk) |
 
-| 协议 | 支持状态 | 特性说明 |
-|------|----------|----------|
-| 🔒 Shadowsocks (SS) | ✅ | 经典协议，稳定可靠 |
-| 🔓 ShadowsocksR (SSR) | ✅ | 增强功能，混淆支持 |
-| 🧦 SOCKS5 | ✅ | 通用代理协议 |
-| 🐚 Snell | ✅ | 高性能协议 |
-| 🌟 V2Ray (VMess/VLESS) | ✅ | 现代化协议套件 |
-| 🛡️ Trojan | ✅ | TLS 加密伪装 |
-| 🚀 Hysteria | ✅ | 基于 QUIC 的高速协议 |
-| 🔐 WireGuard | ✅ | 现代 VPN 协议 |
+> 该安装包适用于 `arm64-v8a` 设备，包括大多数近年的 Android 手机和平板。
 
-### 📱 系统要求
+官方应用包名为 `com.github.metacubex.clash.meta`。安装 APK 时，Android 可能要求允许浏览器或文件管理器“安装未知应用”。
 
-- **最低版本**：Android 7.0 (API 24) 及以上
-- **推荐版本**：Android 9.0 及以上
-- **适用设备**：安卓手机 / 平板电脑
-- **架构支持**：ARM64、ARM、x86_64
-- **存储需求**：约 100MB 可用空间
+## 第 1 步：复制订阅链接
 
----
+登录用户中心，在“我的订阅”中切换到 Android，然后点击订阅地址旁的“复制”。
 
-## 📥 下载安装
+![复制订阅链接](clash-meta-for-Android-01.png)
 
-### 🔗 官方发布
+> 请勿把订阅链接发送给他人。链接通常包含你的账户凭据。
 
-> ⚠️ **下载提醒**：请从官方 GitHub Release 页面下载最新版本
+## 第 2 步：打开配置页面
 
-| 下载源 | 版本 | 说明 |
-|--------|------|------|
-| 🏠 GitHub Release | 2.11.6-alpha | [官方发布](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/Prerelease-alpha/cmfa-2.11.6-alpha-universal-release.apk) |
-| 🚀 镜像加速1 | 2.11.6-alpha | [加速下载](https://git.886.be/https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/Prerelease-alpha/cmfa-2.11.6-alpha-universal-release.apk) |
-| 🚀 镜像加速2 | 2.11.6-alpha | [备用链接](https://gh.xxooo.cf/https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/Prerelease-alpha/cmfa-2.11.6-alpha-universal-release.apk) |
-| 📦 网盘下载 | 2.11.6-alpha | [蓝奏云](https://tagcloud.lanzouw.com/i02u02b85x8d) |
+打开 Clash Meta for Android，在主页点击“配置”。
 
-### 🛠️ 安装步骤
+![点击配置](clash-meta-for-Android-02.jpg)
 
-1. **下载应用**
-   - 选择上述任一下载链接
-   - 下载 `cmfa-2.11.6-alpha-universal-release.apk`
+## 第 3 步：新建配置
 
-2. **允许安装**
-   - 设置 → 安全 → 开启"未知来源"
-   - 或在安装时选择"允许此次安装"
+点击右上角的 `+`。
 
-3. **完成安装**
-   - 点击 APK 文件开始安装
-   - 按照提示完成安装过程
+![新建配置](clash-meta-for-Android-03.jpg)
 
----
+选择“URL（从 URL 导入）”。
 
-## 🚀 使用教程
+![选择从 URL 导入](clash-meta-for-Android-04.jpg)
 
-### 📋 配置步骤
+## 第 4 步：粘贴订阅链接
 
-#### 🔥 步骤总览
+名称可以填写容易识别的内容。在 URL 一栏粘贴刚才复制的订阅链接，然后点击右上角的保存按钮。
 
-1. **📱 启动应用** - 打开 Clash Meta for Android
-2. **⚙️ 导入配置** - 添加订阅链接或配置文件
-3. **🌐 选择节点** - 从节点列表中选择服务器
-4. **🚀 开启代理** - 启动代理服务
-5. **✅ 验证连接** - 确认代理功能正常
+![填写订阅链接](clash-meta-for-Android-05.jpg)
 
-### 🎯 详细操作
+## 第 5 步：启用配置
 
-#### 🌟 步骤一：应用启动
+返回配置列表，点选刚刚添加的配置。配置左侧出现选中标记后，说明已经启用。
 
-打开已安装的 Clash Meta，进入主界面：
+![启用配置](clash-meta-for-Android-06.jpg)
 
-![应用启动界面](clash-meta-for-Android-01.png)
+如果节点没有更新，可以点击右上角的刷新按钮。更新失败时，请先检查订阅是否过期，以及订阅链接是否完整。
 
-> 💡 首次启动会要求授予网络权限，请点击"允许"
+## 第 6 步：启动连接
 
-#### ⚙️ 步骤二：配置管理
+回到首页，点击顶部显示“已停止”的卡片。首次连接时，Android 会弹出 VPN 连接请求，请选择“允许”或“确定”。
 
-点击"配置"标签，进入配置管理页面：
+![启动连接](clash-meta-for-Android-07.jpg)
 
-![配置管理页面](clash-meta-for-Android-02.jpg)
+卡片变成蓝色并显示“运行中”，同时系统状态栏出现 VPN 图标，即表示连接已经启动。
 
-#### 📥 步骤三：导入配置
+![连接成功](clash-meta-for-Android-08.jpg)
 
-点击右上角的"+"号，选择导入方式：
+## 选择节点
 
-![导入配置选项](clash-meta-for-Android-03.jpg)
+需要手动切换节点时，点击首页的“代理”，进入对应策略组后选择节点。节点右侧显示的延迟越低，通常代表当前网络下的响应越快；延迟测试失败不一定代表节点完全不可用，可以直接切换后再尝试访问网页。
 
-#### 📝 步骤四：配置信息
+## 常见问题
 
-输入配置信息（订阅链接或配置文件）：
+### 导入后没有节点
 
-![配置信息填写](clash-meta-for-Android-04.jpg)
+- 下拉或点击刷新，重新更新配置。
+- 确认复制的是 Clash/通用订阅链接，而不是套餐购买页面的网址。
+- 在浏览器中重新复制完整链接，避免聊天软件截断链接。
 
-#### ⏳ 步骤五：等待加载
+### 显示“运行中”但无法上网
 
-配置导入后，等待节点信息加载完成：
+- 进入“代理”切换其他节点。
+- 暂时关闭其他 VPN、广告过滤器或私人 DNS 后重试。
+- 停止服务，再重新启动并允许系统 VPN 请求。
 
-![配置加载过程](clash-meta-for-Android-05.jpg)
+### 如何更新订阅
 
-#### 🌐 步骤六：选择节点
+进入“配置”，点击右上角的刷新按钮。更换套餐后、节点发生变化时，建议手动更新一次。
 
-在节点列表中选择合适的服务器：
+### 为什么不推荐旧版 Clash for Android
 
-![节点选择界面](clash-meta-for-Android-06.jpg)
-
-#### ✅ 步骤七：确认配置
-
-检查配置信息，确认无误后保存：
-
-![配置确认界面](clash-meta-for-Android-07.jpg)
-
-#### 🚀 步骤八：启动服务
-
-返回主界面，开启代理服务：
-
-![连接状态显示](clash-meta-for-Android-08.jpg)
+旧版 Clash for Android 已停止维护。请使用本教程中的 Clash Meta for Android，并始终从官方 GitHub 或 F-Droid 下载，避免安装来源不明的改包。
 
 ---
 
-## 🎛️ 高级功能
+最后核对：2026 年 10 月 23 日
 
-### 📊 规则管理
-
-- **域名规则**：基于域名的智能分流
-- **IP 规则**：基于 IP 地址的精准分流
-- **GeoIP 规则**：基于地理位置的自动分流
-- **自定义规则**：支持用户自定义分流规则
-
-### 🔄 策略组配置
-
-- **自动选择**：根据延迟自动选择最优节点
-- **负载均衡**：流量在多个节点间均衡分配
-- **故障转移**：节点失效时自动切换备用节点
-- **手动选择**：用户手动指定使用的节点
-
-### 📈 监控和统计
-
-- **实时流量**：显示当前上传/下载速度
-- **连接信息**：查看活跃连接详情
-- **日志记录**：详细的运行日志信息
-- **规则匹配**：显示规则命中情况
-
----
-
-## ⚠️ 注意事项
-
-### 🛡️ 安全提醒
-
-- **配置来源**：仅使用可信的配置提供商
-- **权限管理**：合理授予应用所需权限
-- **定期更新**：及时更新到最新版本
-- **备份配置**：定期备份重要配置文件
-
-### 🔧 兼容性
-
-- **系统版本**：确保 Android 版本符合要求
-- **硬件架构**：下载对应架构的安装包
-- **网络环境**：部分网络可能限制代理功能
-
----
-
-## ❓ 常见问题
-
-### 🔧 技术支持
-
-**Q: 无法导入配置？**
-
-A: 请检查：
-
-- 订阅链接是否正确
-- 网络连接是否正常
-- 配置格式是否兼容
-
-**Q: 连接后无法上网？**
-
-A: 排查建议：
-
-- 检查节点是否可用
-- 确认 VPN 权限已授予
-- 尝试切换不同节点
-
-**Q: 应用崩溃或卡顿？**
-
-A: 解决方案：
-
-- 重启应用或设备
-- 清除应用缓存数据
-- 检查系统资源占用
-
----
-
-## 🔗 相关资源
-
-### 📚 官方链接
-
-- 🏠 [项目主页](https://github.com/MetaCubeX/ClashMetaForAndroid)
-- 📖 [使用文档](https://github.com/MetaCubeX/ClashMetaForAndroid/wiki)
-- 🐛 [问题反馈](https://github.com/MetaCubeX/ClashMetaForAndroid/issues)
-- 💬 [社区讨论](https://t.me/ClashMeta)
-
-### 🛠️ 技术资源
-
-- 🔧 [Clash Meta 内核](https://github.com/MetaCubeX/Clash.Meta)
-- 📋 [配置示例](https://github.com/MetaCubeX/Clash.Meta/wiki)
-- 🎯 [规则集合](https://github.com/Loyalsoldier/clash-rules)
-
----
-
-> 📅 最后更新：2025年7月10日 | ⚔️ 适用版本：Clash Meta for Android 2.11.6-alpha
+适用客户端：Clash Meta for Android 2.11.x
