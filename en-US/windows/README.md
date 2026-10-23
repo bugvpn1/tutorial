@@ -9,7 +9,6 @@
 | Client | Key Features | Maintenance Status | Rating | Tutorial |
 |--------|--------------|-------------------|--------|----------|
 | [⚔️ Clash Verge](clash-verge.md) | Modern interface, comprehensive features | 🟢 Active | ⭐⭐⭐⭐⭐ | [Setup Guide](clash-verge.md) |
-| [⚡ v2rayN](v2rayn.md) | Lightweight, stable and reliable | 🟢 Active | ⭐⭐⭐⭐⭐ | [Setup Guide](v2rayn.md) |
 | [🎯 Netch](netch.md) | Gaming optimized, low latency | 🟡 Maintained | ⭐⭐⭐⭐ | [Setup Guide](netch.md) |
 
 ### 🏛️ Legacy Clients
@@ -196,7 +195,6 @@ Most clients require Visual C++ Runtime:
 ### 📖 Configuration Tutorials
 
 - [⚔️ Clash Verge Modern Client](clash-verge.md)
-- [⚡ v2rayN Lightweight Solution](v2rayn.md)
 - [🎯 Netch Gaming Optimizer](netch.md)
 - [🛡️ Clash for Windows (Legacy)](clash-for-windows.md)
 
@@ -484,4 +482,3 @@ v2rayN.exe --debug --log-level info
 ---
 
 > 📅 Last Updated: July 10, 2025 | 🪟 Windows 7+ | 💻 x64/x86 | 🔄 Version: 4.0.0
-

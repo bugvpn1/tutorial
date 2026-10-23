@@ -8,7 +8,6 @@
 
 | 客户端 | 特点 | 支持协议 | 推荐指数 |
 |--------|------|----------|----------|
-| [📘 v2rayNG](v2rayng.md) | 功能强大，完全免费 | VMess/VLESS/SS/Trojan | ⭐⭐⭐⭐⭐ |
 | [📗 Clash Meta](clash-meta-for-android.md) | 规则丰富，界面美观 | SS/VMess/Trojan | ⭐⭐⭐⭐ |
 | [📙 sing-box](sing-box.md) | 新兴客户端，性能优秀 | 全协议支持 | ⭐⭐⭐⭐ |
 
@@ -51,7 +50,6 @@
 
 ## 📚 快速导航
 
-- [🔧 v2rayNG 配置教程](v2rayng.md)
 - [⚔️ Clash Meta 配置教程](clash-meta-for-android.md)
 - [📦 sing-box 配置教程](sing-box.md)
 - [🏄 Surfboard 配置教程](surfboard.md)
@@ -59,4 +57,3 @@
 ---
 
 > 📅 最后更新：2025年7月10日
-

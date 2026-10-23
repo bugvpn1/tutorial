@@ -8,7 +8,6 @@
 
 | Client | Key Features | Supported Protocols | Rating |
 |--------|--------------|---------------------|--------|
-| [📘 v2rayNG](v2rayng.md) | Powerful features, completely free | VMess/VLESS/SS/Trojan | ⭐⭐⭐⭐⭐ |
 | [📗 Clash Meta](clash-meta-for-android.md) | Rich rules, beautiful UI | SS/VMess/Trojan | ⭐⭐⭐⭐ |
 | [📙 sing-box](sing-box.md) | Emerging client, excellent performance | Full protocol support | ⭐⭐⭐⭐ |
 
@@ -104,7 +103,6 @@
 
 ### 📖 Configuration Tutorials
 
-- [🔧 v2rayNG Setup Guide](v2rayng.md)
 - [⚔️ Clash Meta Configuration](clash-meta-for-android.md)
 - [📦 sing-box Setup Tutorial](sing-box.md)
 - [🏄 Surfboard Configuration Guide](surfboard.md)

@@ -8,10 +8,6 @@ en-US:
         path: en-US/windows/clash-verge.md
         icon: en-US/windows/clash-verge.png
         updated_at: 2026-09-16
-      - title: v2rayN
-        path: en-US/windows/v2rayn.md
-        icon: zh-CN/windows/v2rayN.png
-        updated_at: 2025-07-10
   - title: macOS
     path: en-US/macos/README.md
     subItems:
@@ -25,23 +21,12 @@ en-US:
         updated_at: 2025-07-10
   - title: Android
     path: en-US/android/README.md
-    subItems:
-      - title: v2rayNG
-        path: en-US/android/v2rayng.md
-        icon: zh-CN/android/v2rayng.png
-        updated_at: 2025-07-10
   - title: iOS / iPadOS
     path: en-US/ios-ipados/README.md
     subItems:
       - title: Shadowrocket
         path: en-US/ios-ipados/shadowrocket.md
         icon: zh-CN/ios-ipados/shadowrocket.png
-        updated_at: 2025-07-10
-  - title: Linux
-    subItems:
-      - title: v2rayN
-        path: en-US/linux/v2rayn.md
-        icon: zh-CN/windows/v2rayN.png
         updated_at: 2025-07-10
 
 zh-CN:
@@ -52,10 +37,6 @@ zh-CN:
         path: zh-CN/windows/clash-verge.md
         icon: zh-CN/windows/clash-verge.png
         updated_at: 2026-09-16
-      - title: v2rayN
-        path: zh-CN/windows/v2rayn.md
-        icon: zh-CN/windows/v2rayN.png
-        updated_at: 2025-07-10
   - title: macOS
     path: zh-CN/macos/README.md
     subItems:
@@ -69,23 +50,12 @@ zh-CN:
         updated_at: 2025-07-10
   - title: Android
     path: zh-CN/android/README.md
-    subItems:
-      - title: v2rayNG
-        path: zh-CN/android/v2rayng.md
-        icon: zh-CN/android/v2rayng.png
-        updated_at: 2025-07-10
   - title: iOS / iPadOS
     path: zh-CN/ios-ipados/README.md
     subItems:
       - title: Shadowrocket
         path: zh-CN/ios-ipados/shadowrocket.md
         icon: zh-CN/ios-ipados/shadowrocket.png
-        updated_at: 2025-07-10
-  - title: Linux
-    subItems:
-      - title: v2rayN
-        path: zh-CN/linux/v2rayn.md
-        icon: zh-CN/windows/v2rayN.png
         updated_at: 2025-07-10
 
 ---
@@ -95,28 +65,20 @@ zh-CN:
 
 * [Windows](en-US/windows/README.md)
   * [Clash Verge for Windows](en-US/windows/clash-verge.md)
-  * [v2rayN for Windows](en-US/windows/v2rayn.md)
 * [macOS](en-US/macos/README.md)
   * [Clash Verge for macOS](en-US/macos/clash-verge.md)
   * [Shadowrocket](en-US/macos/shadowrocket.md)
 * [Android](en-US/android/README.md)
-  * [v2rayNG](en-US/android/v2rayng.md)
 * [iOS / iPadOS](en-US/ios-ipados/README.md)
   * [Shadowrocket](en-US/ios-ipados/shadowrocket.md)
-* Linux
-  * [v2rayN](en-US/linux/v2rayn.md)
 
 ## zh-CN
 
 * [Windows](zh-CN/windows/README.md)
   * [Clash Verge for Windows](zh-CN/windows/clash-verge.md)
-  * [v2rayN for Windows](zh-CN/windows/v2rayn.md)
 * [macOS](zh-CN/macos/README.md)
   * [Clash Verge for macOS](zh-CN/macos/clash-verge.md)
   * [Shadowrocket](zh-CN/macos/shadowrocket.md)
 * [Android](zh-CN/android/README.md)
-  * [v2rayNG](zh-CN/android/v2rayng.md)
 * [iOS / iPadOS](zh-CN/ios-ipados/README.md)
   * [Shadowrocket](zh-CN/ios-ipados/shadowrocket.md)
-* Linux
-  * [v2rayN](zh-CN/linux/v2rayn.md)
